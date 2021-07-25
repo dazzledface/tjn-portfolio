@@ -176,7 +176,11 @@ header {
 
 .logo {
    width: 30%;
+}
 
+img,
+picture {
+   width: 100%;
 }
 
 nav {
