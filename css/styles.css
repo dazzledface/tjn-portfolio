@@ -203,12 +203,7 @@ header {
 }
 
 .logo {
-   width: 30%;
-}
-
-img,
-picture {
-   width: 600px;
+   width: 20%;
 }
 
 nav {
@@ -223,7 +218,11 @@ nav {
 
 }
 
-.project-img {
+.img-10 {
+   max-width: 10%;
+}
+
+.img-25 {
    max-width: 25%;
 }
 
