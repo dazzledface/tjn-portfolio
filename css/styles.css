@@ -240,10 +240,10 @@ h4 {
 
 /* grid */
 
-.container {
+.home-container {
    display: grid;
-   grid-template-columns: 1fr 4fr 4fr 1fr;
-   grid-template-rows: 90px 1fr 50px 1.5fr 1.5fr 1fr;
+   grid-template-rows: 70px 1fr 50px 1.5fr 1.5fr 1fr;
+   grid-template-columns: 1fr 5fr 5fr 1fr;
    gap: 20px 20px;
    grid-auto-flow: row;
 }
@@ -342,8 +342,8 @@ nav {
 /* main & hero */
 
 main {
-   grid-column: 1 / 5;
-   grid-row: 1 / 7;
+   grid-column: 2/4;
+   grid-row: 2/7;
 }
 
 .hero {
@@ -452,7 +452,6 @@ main {
 
 .proj-txt {
    flex: 4;
-   align-self: flex-start;
    padding: 3%;
    min-width: 310px;
 }
