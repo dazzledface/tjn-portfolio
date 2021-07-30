@@ -534,14 +534,14 @@ footer {
    min-width: 350px;
    flex-wrap: wrap;
    flex-direction: row;
+   align-items: flex-start;
 }
 
 .tools {
    display: flex;
    flex-direction: column;
-   padding: 5.5% 1.5%;
+   flex-wrap: wrap;
    border-radius: 14px;
-   margin-top: 20px;
    min-width: 310px;
    flex: 4;
 }
@@ -549,9 +549,7 @@ footer {
 .skills {
    display: flex;
    flex-direction: column;
-   padding: 0.5% 3%;
-   display: flex;
-   align-items: flex-start;
+   flex-wrap: wrap;
    min-width: 310px;
    flex: 5;
 }
