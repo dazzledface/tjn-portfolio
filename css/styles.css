@@ -158,6 +158,9 @@
 }
 
 /* body & general font styles */
+* {
+   box-sizing: border-box;
+}
 
 body {
    font-family: 'HK Grotesk Regular';
