@@ -160,7 +160,6 @@
 /* body & general font styles */
 
 body {
-   background-color: #ffffff;
    font-family: 'HK Grotesk Regular';
    font-size: 16px;
    font-weight: 300;
@@ -206,17 +205,15 @@ h4 {
    font-family: 'HK Grotesk Light';
 }
 
-.link {
+.link-wht {
    text-decoration: none;
    color: white;
    font-size: 1.1em;
    font-family: 'HK Grotesk Medium';
 }
 
-.link:hover {
-   text-decoration: underline;
-   font-size: 1.1em;
-   font-family: 'HK Grotesk Medium';
+.more-btn:hover .link-wht {
+   font-weight: 700;
 }
 
 .link-blk {
@@ -245,7 +242,7 @@ header {
    top: 0;
    width: 100%;
    background: white;
-   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
    height: 70px;
    z-index: 10;
 }
@@ -436,12 +433,25 @@ main {
 }
 
 .more-btn {
+   background-image: linear-gradient(to right,
+         #6207FF 2%,
+         #6207FF 51%,
+         #F2E9DC 100%);
+}
+
+.more-btn {
    padding: 8px 4% 8px 4%;
-   background: #6207FF;
    max-width: 160px;
    text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
    border-radius: 8px;
-   color: white;
+   box-shadow: 0 0 20px #eee;
+   display: block;
+}
+
+.more-btn:hover {
+   background-position: right center;
 }
 
 .yellow-btn {
@@ -492,13 +502,13 @@ footer {
    min-width: 350px;
    flex-wrap: wrap;
    flex-direction: row;
+   margin-top: 20px;
 }
 
 .profile-photo-div {
    background: #FFF05A;
-   padding: 5.5% 1.5%;
+   padding: 5.5% 2%;
    border-radius: 14px;
-   margin-top: 20px;
    min-width: 310px;
    flex: 4;
 }
@@ -508,12 +518,15 @@ footer {
 }
 
 .info {
-   padding: 0.5% 3%;
+   padding: 2%;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
    min-width: 310px;
    flex: 5;
+   background: #ffffff;
+   border-radius: 14px;
+   margin-left: 20px;
 }
 
 .info-btns {
@@ -523,40 +536,55 @@ footer {
    align-items: center;
    width: 100%;
    min-width: 310px;
+   margin-top: 10px;
 }
 
 .btn-margin {
    margin: 0 20px 0 0;
 }
 
+/* tools & skills */
+
 .tools-skills {
    display: flex;
    min-width: 350px;
    flex-wrap: wrap;
    flex-direction: row;
+   justify-content: space-between;
    align-items: flex-start;
+   max-height: 400px;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 
-.tools {
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   border-radius: 14px;
-   min-width: 310px;
+.item-header {
+   width: 100%;
+}
+
+#tools {
+   margin-right: 20px;
    flex: 4;
 }
 
-.skills {
+.content-col {
    display: flex;
-   flex-direction: column;
    flex-wrap: wrap;
-   min-width: 310px;
+   min-width: 350px;
    flex: 5;
+   flex-basis: 350;
+   max-height: 400px;
+   background: #ffffff;
+   border-radius: 14px;
+   padding: 2%;
 }
 
-.columns {
-   display: flex;
-   flex-direction: row;
+.outline-item {
+   padding: 6px 20px;
+   border: 1px solid black;
+   text-align: center;
+   margin: 8px;
+   border-radius: 8px;
+   font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {}
