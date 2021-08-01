@@ -1,0 +1,151 @@
+.about-grid {
+   height: 100vh;
+   width: 100vw;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 70px 1fr;
+}
+
+.about-grid-2 {
+   display: grid;
+   grid-template-rows: auto auto auto 100px;
+   grid-template-columns: 1fr 6fr 6fr 1fr;
+   gap: 20px 20px;
+   overflow: hidden;
+}
+
+.about-content {
+   grid-column: 2/4;
+   grid-row: 2/6;
+   overflow-y: scroll;
+   padding: 20px;
+}
+
+.about-hero {
+   grid-column: 2/4;
+   grid-row: 1/2;
+   background: #6207FF;
+   color: white;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   border-radius: 14px;
+   padding: 6%;
+   padding-left: 15%;
+}
+
+.story {
+   display: flex;
+   justify-content: space-between;
+   align-items: stretch;
+   padding-top: 20px;
+   flex-wrap: wrap;
+}
+
+.profile-photo-div {
+   background: #FFF05A;
+   border-radius: 14px;
+   flex: 1;
+   padding: 4% 1%;
+   min-width: 300px;
+}
+
+.profile-photo {
+   width: 100%;
+}
+
+.info {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background: #ffffff;
+   border-radius: 14px;
+   flex: 2;
+   padding: 0 1.5%;
+   margin-left: 10px;
+   min-width: 375px;
+}
+
+.info-btns {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+   margin: 10px 5px 30px 0;
+}
+
+.btn-margin {
+   margin: 0 10px 0 0;
+}
+
+/* tools & skills */
+
+.tools-skills {
+   grid-row: 2/3;
+   grid-column: 2/4;
+  display: flex;
+   justify-content: space-between;
+   align-items: stretch;
+   padding-top: 20px;
+   flex-wrap: wrap;
+}
+
+.item-header {
+   width: 100%;
+}
+
+#tools {
+   margin-right: 20px;
+   flex: 4;
+}
+
+.tools-col {
+   display: flex;
+   flex-wrap: wrap;
+   background: #ffffff;
+   border-radius: 14px;
+   padding: 2%;
+   min-width: 375px;
+   flex: 1;
+}
+
+.skills-col {
+   display: flex;
+   flex-wrap: wrap;
+   background: #ffffff;
+   border-radius: 14px;
+   padding: 2%;
+   margin-left: 20px;
+   min-width: 375px;
+   flex: 1;
+}
+
+.outline-item {
+   padding: 6px 20px;
+   border: 1px solid black;
+   text-align: center;
+   margin: 5px;
+   border-radius: 8px;
+   font-weight: 400;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {}
