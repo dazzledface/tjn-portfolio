@@ -259,8 +259,6 @@ h4 {
    padding: 20px;
 }
 
-
-
 /* header/nav */
 
 .header {
@@ -390,10 +388,6 @@ li {
    padding-left: 15%;
 }
 
-#hero-abt {
-   margin-top: 62px;
-}
-
 .hero1 {
    position: relative;
    max-width: 200px;
@@ -415,10 +409,6 @@ li {
    max-width: 400px;
    margin-top: 3%;
    align-self: flex-end;
-}
-
-#hero2-abt {
-   margin-top: 1%;
 }
 
 /* projects */
@@ -594,48 +584,6 @@ footer {
    margin: 0 10px 0 0;
 }
 
-/* tools & skills */
-
-.tools-skills {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: flex-start;
-   grid-row: 3/4;
-   grid-column: 2/4;
-
-}
-
-.item-header {
-   width: 100%;
-}
-
-#tools {
-   margin-right: 20px;
-   flex: 4;
-}
-
-.content-col {
-   display: flex;
-   flex-wrap: wrap;
-   min-width: 350px;
-   flex: 5;
-   flex-basis: 350;
-   max-height: 400px;
-   background: #ffffff;
-   border-radius: 14px;
-   padding: 2%;
-}
-
-.outline-item {
-   padding: 6px 20px;
-   border: 1px solid black;
-   text-align: center;
-   margin: 5px;
-   border-radius: 8px;
-   font-weight: 400;
-}
 
 /* ==============================
 Medium devices (640px and larger)
