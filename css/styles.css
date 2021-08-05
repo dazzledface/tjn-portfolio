@@ -127,11 +127,11 @@ h4 {
    grid-column: 2/3;
    max-height: 1em;
    min-width: 230px;
-   font-family: 'HK Grotesk Regular';
 }
 
 .tjn {
    font-family: 'HK Grotesk Regular';
+   max-height: 1.8em;
 }
 
 .nav {
@@ -436,15 +436,8 @@ footer {
    margin: 0 10px 0 0;
 }
 
-
-/* ==============================
-Medium devices (640px and larger)
-================================= */
 @media only screen and (max-width: 640px) {}
 
-/* ==============================
-Large devices (1024px or larger)
-================================= */
 @media only screen and (max-width: 1024px) {
    .hero {
       grid-column: 2/7;
@@ -476,12 +469,6 @@ Large devices (1024px or larger)
    }
 }
 
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (max-width: 1440px) {}
 
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-@media only screen and (min-width: 1920px) {}
+@media only screen and (max-width: 1920px) {}
