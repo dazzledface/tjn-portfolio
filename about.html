@@ -19,23 +19,28 @@
    <div class="grid-1">
       <header class="header">
          <div class="header-content">
-         <div class="logo-div">
-            <a href="index.html"><img class="tjn" src="img/tjn/tjn-logo.png" alt="Tessa Joseph-Nicholas Logo"></a>
+            <div class="logo-div">
+               <a href="index.html"><img class="tjn" src="img/tjn/tjn-logo.png" alt="Tessa Joseph-Nicholas Logo"></a>
+            </div>
+            <nav>
+               <input type="checkbox" id="show-menu-input-checkbox" role="button">
+               <label for="show-menu-input-checkbox" id="main-menu-toggler"
+                  class="flex-container flex-vcenter flex-hcenter">
+                  <div id="main-menu-toggler-icon" class="flex-grow"></div>
+               </label>
+               <ul class="mainMenu accordion">
+                  <li><a class="active" href="index.html">
+                        Work
+                     </a></li>
+                  <li><a class="nav-item" href="about.html">
+                        About
+                     </a></li>
+                  <li><a class="nav-item" href="contact.html">
+                        Contact
+                     </a></li>
+               </ul>
+            </nav>
          </div>
-         <nav class="nav">
-            <ul class="menu">
-               <li><a class="nav-item" href="index.html">
-                     Work
-                  </a></li>
-               <li><a id="active" href="about.html">
-                     About
-                  </a></li>
-               <li><a class="nav-item" href="contact.html">
-                     Contact
-                  </a></li>
-            </ul>
-         </nav>
-      </div>
       </header>
 
       <div class="grid-2">
@@ -44,7 +49,7 @@
                <div class="hero1">
                   <h1 class>Things<br>about me</h1>
                </div>
-               <div class="hero2" id="hero2-abt">
+               <div class="hero2">
                   <h2 class="subtitle-lg">designing
                      <span>&#183;</span> making <span>&#183;</span> storytelling <span>&#183;</span> collaborating
                      <span>&#183;</span> facilitating <span>&#183;</span> teaching <span>&#183;</span> learning
