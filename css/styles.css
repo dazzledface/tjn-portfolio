@@ -129,15 +129,15 @@ h4 {
    min-width: 230px;
 }
 
-.tjn {
-   font-family: 'HK Grotesk Regular';
-   max-height: 1.8em;
-}
-
 .nav {
    grid-column: 4/5;
    max-width: 375px;
    height: 20px;
+}
+
+.tjn {
+   font-family: 'HK Grotesk Regular';
+   font-size: 1.8em;
 }
 
 ul {
