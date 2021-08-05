@@ -85,19 +85,20 @@ h4 {
 
 /* grid */
 
-.home-grid {
+.grid-1 {
    height: 100vh;
    width: 100vw;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 70px 1fr;
+   grid-template-rows: 80px 1fr;
+   gap: 20px;
 }
 
-.home-grid-2 {
+.grid-2 {
    display: grid;
-   grid-template-rows: auto 50px auto auto 100px;
+   grid-auto-rows: auto;
    grid-template-columns: 1fr 6fr 6fr 1fr;
-   gap: 20px 20px;
+   gap: 20px;
    overflow: hidden;
 }
 
@@ -112,32 +113,33 @@ h4 {
    grid-column: 1/5;
    grid-row: 1/2;
    width: 100%;
-   padding-top: 1%;
    background: white;
    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
    z-index: 10;
-   display: flex;
-   justify-content: center;
-   align-items: center;
    display: grid;
    grid-template-columns: 12% 2fr 5fr 2fr 12%;
+   grid-template-rows: 1fr 1.5fr;
 }
 
-.logo {
+.logo-div {
    grid-column: 2/3;
+   grid-row: 2/3;
    max-height: 1em;
-   min-width: 230px;
-}
-
-.nav {
-   grid-column: 4/5;
-   max-width: 375px;
-   height: 20px;
+   min-width: 200px;
 }
 
 .tjn {
    font-family: 'HK Grotesk Regular';
    max-height: 1.5em;
+   margin-top: 12px;
+}
+
+.nav {
+   grid-column: 4/5;
+   grid-row: 2/3;
+   max-width: 375px;
+   height: 1em;
+   margin-top: 10px;
 }
 
 ul {
@@ -187,7 +189,7 @@ li {
 }
 
 .nav .nav-item:after {
-   bottom: 16px;
+   bottom: 18px;
    transform: translateY(-6px);
 }
 
@@ -436,9 +438,7 @@ footer {
    margin: 0 10px 0 0;
 }
 
-@media only screen and (max-width: 640px) {}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 640px) {
    .hero {
       grid-column: 2/7;
       grid-row: 1/2;
@@ -468,6 +468,8 @@ footer {
       text-align: center;
    }
 }
+
+@media only screen and (max-width: 1024px) {}
 
 @media only screen and (max-width: 1440px) {}
 
