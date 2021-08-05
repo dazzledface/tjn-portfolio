@@ -1,6 +1,7 @@
 /* body & general font styles */
 * {
    box-sizing: border-box;
+   font-family: 'HK Grotesk Regular';
 }
 
 body {
