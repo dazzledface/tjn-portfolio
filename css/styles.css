@@ -91,14 +91,12 @@ h4 {
    display: grid;
    grid-template-columns: 1fr;
    grid-template-rows: 80px 1fr;
-   gap: 20px;
 }
 
 .grid-2 {
    display: grid;
    grid-auto-rows: auto;
    grid-template-columns: 1fr 6fr 6fr 1fr;
-   gap: 20px;
    overflow: hidden;
 }
 
@@ -297,6 +295,7 @@ li {
    border-radius: 14px;
    background: #ffffff;
    padding: 2%;
+   margin-top: 20px;
 }
 
 .proj-img-div {
