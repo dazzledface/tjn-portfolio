@@ -137,7 +137,7 @@ h4 {
 
 .tjn {
    font-family: 'HK Grotesk Regular';
-   font-size: 1.8em;
+   max-height: 1.5em;
 }
 
 ul {
