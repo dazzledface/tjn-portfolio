@@ -1,13 +1,11 @@
 .sp-content {
-   grid-column: 2/7;
-   grid-row: 2/16;
+   grid-column: 2/4;
    overflow-y: scroll;
    padding: 20px;
 }
 
 .sp-hero {
-   grid-column: 2/7;
-   grid-row: 1/2;
+   grid-column: 2/4;
    background: #6207FF;
    color: white;
    display: flex;
@@ -42,8 +40,7 @@
 }
 
 .sp-container-1 {
-   grid-column: 2/7;
-   grid-row: 2/3;
+   grid-column: 2/4;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: 1fr 1fr;
@@ -89,13 +86,12 @@
    margin-top: 30px;
    grid-column: 1/4;
    grid-row: 2/3;
-   min-width: 400px;
+   min-width: 340px;
    text-align: center;
 }
 
 .sp-container-2 {
-   grid-column: 2/7;
-   grid-row: 3/4;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -113,17 +109,15 @@
 
 .home-img {
    flex: 1.5;
-   min-width: 375px;
+   min-width: 340px;
 }
 
 #sp-footer {
-   grid-row: 6/7;
-   grid-column: 1/8;
+   grid-column: 1/5;
 }
 
 .sp-container-3 {
-   grid-column: 2/7;
-   grid-row: 4/5;
+   grid-column: 2/4;
 }
 
 .role-time {
@@ -137,7 +131,7 @@
    display: flex;
    flex-wrap: wrap;
    padding: 2%;
-   min-width: 375px;
+   min-width: 340px;
    flex: 4;
 }
 
@@ -146,13 +140,12 @@
    flex-wrap: wrap;
    padding: 2%;
    margin-left: 20px;
-   min-width: 375px;
+   min-width: 340px;
    flex: 1;
 }
 
 .sp-container-4 {
-   grid-column: 2/7;
-   grid-row: 5/6;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
@@ -163,7 +156,7 @@
 .wires {
    flex: 1;
    text-align: center;
-   min-width: 300px;
+   min-width: 340px;
    padding: 2%;
    display: flex;
    flex-direction: column;
@@ -173,7 +166,7 @@
 
 .lomidfi {
    flex: 1.5;
-   min-width: 375px;
+   min-width: 340px;
 }
 
 #border {
@@ -181,8 +174,7 @@
 }
 
 .sp-container-5 {
-   grid-column: 2/7;
-   grid-row: 6/7;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    align-items: stretch;
@@ -191,8 +183,7 @@
 }
 
 .sp-container-6 {
-   grid-column: 2/7;
-   grid-row: 7/8;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -206,7 +197,7 @@
 .text {
    flex: 1;
    padding: 2%;
-   min-width: 360px;
+   min-width: 340px;
 }
 
 .methods {
@@ -216,7 +207,7 @@
    flex: 1;
    text-align: right;
    flex-wrap: wrap;
-   min-width: 360px;
+   min-width: 340px;
 }
 
 .method-items {
@@ -224,7 +215,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: flex-end;
-   min-width: 360px;
+   min-width: 340px;
 }
 
 .user-div {
@@ -273,8 +264,7 @@
 }
 
 .sp-container-7 {
-   grid-column: 2/7;
-   grid-row: 8/9;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    align-items: stretch;
@@ -283,8 +273,7 @@
 }
 
 .sp-container-8 {
-   grid-column: 2/7;
-   grid-row: 9/10;
+   grid-column: 2/4;
    display: flex;
    flex-direction: row;
    justify-content: flex-start;
@@ -329,8 +318,7 @@
 }
 
 .sp-container-9 {
-   grid-column: 2/7;
-   grid-row: 10/11;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -373,8 +361,7 @@
 }
 
 .sp-container-10 {
-   grid-column: 2/7;
-   grid-row: 11/12;
+   grid-column: 2/4;
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -419,8 +406,7 @@
 }
 
 .sp-container-11 {
-   grid-column: 2/7;
-   grid-row: 12/13;
+   grid-column: 2/4;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -437,18 +423,16 @@
 .sp-ui-img {
    width: 100%;
    max-width: 500px;
-   min-width: 360px;
-   margin-left: 20px;
+   min-width: 340px;
 }
 
 .sp-ui-div {
-   min-width: 375px;
+   min-width: 340px;
    align-self: center;
 }
 
 .sp-container-12 {
-   grid-column: 2/7;
-   grid-row: 13/14;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    align-items: stretch;
@@ -458,8 +442,7 @@
 }
 
 .sp-container-13 {
-   grid-column: 2/7;
-   grid-row: 14/15;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -476,8 +459,7 @@
 }
 
 .sp-container-14 {
-   grid-column: 2/7;
-   grid-row: 15/16;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -486,8 +468,7 @@
 }
 
 .sp-container-15 {
-   grid-column: 2/7;
-   grid-row: 16/17;
+   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
@@ -496,40 +477,13 @@
 }
 
 #sp-footer {
-   grid-column: 1/7;
-   grid-row: 17/18;
+   grid-column: 1/5;
 }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (max-width: 640px) {
-
-   .sp-hero {
-      grid-column: 2/7;
-      grid-row: 1/2;
-      background: #6207FF;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      border-radius: 14px;
-      padding: 6%;
-   }
-
-   .hero1 h1 {
-      font-size: 2em;
-   }
-
-   .hero2 h2 {
-      font-size: 1.2em;
-      max-width: 375px;
-      margin-top: 1%;
-      align-self: flex-end;
-      text-align: center;
-   }
-
-}
+@media only screen and (max-width: 640px) {}
 
 /* ==============================
 Large devices (1024px or larger)
@@ -538,31 +492,55 @@ Large devices (1024px or larger)
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 1fr;
+      grid-template-columns: 10px 1fr 10px;
       overflow: hidden;
-      margin: 0 auto;
    }
 
    .sp-content {
       overflow-y: scroll;
       padding: 20px;
+   }
+
+   .sp-hero {
+      grid-column: 2/3;
+      background: #6207FF;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 14px;
+      padding: 6%;
       margin: 0 auto;
    }
 
+   .hero1 h1 {
+      font-size: 2em;
+      margin-top: 20px;
+   }
+
+   .hero2 h2 {
+      margin-top: 20px;
+      font-size: 1.2em;
+      align-self: flex-end;
+      text-align: center;
+   }
+
    .sp-container-1 {
+      grid-column: 2/3;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
       width: 100%;
+      margin: 0 auto;
    }
 
    .intro {
-      grid-column: 1/2;
-      grid-row: 1/2;
+      grid-column: 2/3;
       display: flex;
       flex-direction: column;
-      min-width: 310px;
+      max-width: 340px;
       text-align: center;
       margin-right: 0px;
       order: 1;
@@ -570,20 +548,189 @@ Large devices (1024px or larger)
    }
 
    .arm {
-      grid-column: 1/2;
-      grid-row: 2/3;
+      grid-column: 2/3;
       margin-top: 0px;
-      min-width: 310px;
+      max-width: 340px;
       order: 2;
    }
 
    .problem {
       order: 3;
+      max-width: 340px;
    }
 
    #brand {
       width: 200px;
       margin-top: 8%;
+   }
+
+   .sp-container-2 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .home-img {
+      max-width: 340px;
+   }
+
+   .sp-container-3 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .role-time {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 20px;
+      flex-wrap: wrap;
+      margin: 0 auto;
+   }
+
+   .sp-container-4 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+   }
+
+   .wires {
+      text-align: center;
+      max-width: 340px;
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+
+   }
+
+   .lomidfi {
+      margin-top: 20px;
+      flex: 1;
+      max-width: 340px;
+   }
+
+   .sp-container-5 {
+      grid-column: 2/3;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .text {
+      max-width: 340px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .methods {
+      max-width: 340px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      margin-right: 10px;
+
+   }
+
+   .margin-left {
+      margin-left: 0px;
+   }
+
+   .sp-container-6 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .sp-container-7 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .sp-container-8 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .sp-container-9 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .sp-container-10 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .sp-container-11 {
+      grid-column: 2/3;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 0px;
+      margin: 0 auto;
+   }
+
+   .ui-imgs {
+      max-width: 320px;
+   }
+
+   .sp-ui-div {
+      align-self: flex-start;
+      text-align: left;
+      max-width: 320px;
+   }
+
+   .sp-ui-img {
+      max-width: 300px;
+      margin-left: 0px;
+   }
+
+   .sp-container-12 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .sp-container-13 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .sp-container-14 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+   }
+
+   .sp-container-15 {
+      grid-column: 2/3;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
    }
 
 }
