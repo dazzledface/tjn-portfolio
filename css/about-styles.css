@@ -119,14 +119,9 @@
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (max-width: 640px) {
-   .about-content {
-      grid-column: 2/3;
-      overflow: auto;
-   }
+
 
    .about-hero {
-      grid-column: 2/3;
-      grid-row: 1/2;
       background: #6207FF;
       color: white;
       display: flex;
@@ -202,17 +197,16 @@ Large devices (1024px or larger)
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 20px 1fr 20px;
+      grid-template-columns: 1fr;
       overflow: hidden;
    }
 
    .about-content {
-      grid-column: 2/3;
+      padding: 20px;
       overflow-y: scroll;
    }
 
    .about-hero {
-      grid-column: 2/3;
       background: #6207FF;
       color: white;
       display: flex;
