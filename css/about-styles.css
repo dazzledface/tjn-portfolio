@@ -1,3 +1,18 @@
+.grid-1 {
+   height: 100vh;
+   width: 100vw;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 80px 1fr;
+}
+
+.grid-2 {
+   display: grid;
+   grid-auto-rows: auto;
+   grid-template-columns: 1fr 6fr 6fr 1fr;
+   overflow: hidden;
+}
+
 .about-content {
    grid-column: 2/4;
    overflow-y: scroll;
@@ -16,7 +31,6 @@
 }
 
 .story {
-   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    align-items: stretch;
@@ -28,7 +42,7 @@
    background: #FFF05A;
    border-radius: 14px;
    flex: .2;
-   min-width: 300px;
+   min-width: 340px;
    padding: 3% 2% 8% 2%;
    margin: 0 auto;
 }
@@ -41,21 +55,22 @@
    display: flex;
    flex-direction: column;
    align-items: flex-start;
+   justify-content: center;
    background: #ffffff;
    border-radius: 14px;
    flex: 2;
    padding: 0 1.5%;
    margin-left: 10px;
-   min-width: 375px;
+   min-width: 340px;
 }
 
 .info-btns {
    display: flex;
    flex-direction: row;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
    width: 100%;
-   margin: 10px 5px 30px 0;
+   padding: 20px;
 }
 
 .btn-margin {
@@ -65,7 +80,6 @@
 /* tools & skills */
 
 .tools-skills {
-   grid-column: 2/4;
    display: flex;
    justify-content: space-between;
    align-items: stretch;
@@ -83,31 +97,29 @@
 }
 
 .tools-col {
-   grid-column: 2/3;
    display: flex;
    flex-wrap: wrap;
    background: #ffffff;
    border-radius: 14px;
    padding: 2%;
-   min-width: 375px;
+   min-width: 340px;
    flex: 1;
 }
 
 .skills-col {
-   grid-column: 3/4;
    display: flex;
    flex-wrap: wrap;
    background: #ffffff;
    border-radius: 14px;
    padding: 2%;
    margin-left: 20px;
-   min-width: 375px;
+   min-width: 340px;
    flex: 1.3;
 
 }
 
 .outline-item {
-   padding: 6px 20px;
+   padding: 6px 10px;
    border: 1px solid black;
    text-align: center;
    margin: 5px;
@@ -127,73 +139,87 @@ Large devices (1024px or larger)
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 1fr;
+      grid-template-columns: 10px 1fr 10px;
       overflow: hidden;
    }
 
    .about-content {
-      padding: 20px;
+      grid-column: 2/3;
       overflow-y: scroll;
-      margin: 0 auto;
+      padding: 20px;
    }
 
-
    .about-hero {
+      grid-column: 2/3;
       background: #6207FF;
       color: white;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: center;
       border-radius: 14px;
-      height: fit-content;
       padding: 6%;
+      padding-top: 12%;
+
+   }
+
+   .profile-photo-div {
+      grid-column: 2/3;
+      background: #FFF05A;
+      border-radius: 14px;
+      flex: .2;
+      padding: 3% 2% 8% 2%;
    }
 
    .story {
       grid-column: 2/3;
       display: flex;
-      justify-content: space-between;
-      align-items: stretch;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
       margin-top: 20px;
       flex-wrap: wrap;
+      min-width: auto;
+
    }
 
    .info {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
       background: #ffffff;
       border-radius: 14px;
-      flex: 2;
-      padding: 0 1.5%;
+      padding: 0 10%;
       margin-left: 0px;
       margin-top: 20px;
-      min-width: 375px;
+   }
+
+   .info-btns {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
    }
 
    .tools-skills {
       grid-column: 2/3;
       display: flex;
-      justify-content: space-between;
-      align-items: stretch;
+      justify-content: center;
+      align-items: center;
       padding-top: 20px;
       flex-wrap: wrap;
    }
 
    .tools-col {
-      grid-column: 2/3;
       display: flex;
       flex-wrap: wrap;
       background: #ffffff;
       border-radius: 14px;
       padding: 2%;
-      min-width: 375px;
-      flex: 1;
    }
 
    .skills-col {
-      grid-column: 2/4;
       display: flex;
       flex-wrap: wrap;
       background: #ffffff;
@@ -201,21 +227,13 @@ Large devices (1024px or larger)
       padding: 2%;
       margin-left: 0px;
       margin-top: 20px;
-      min-width: 375px;
-      flex: 1.2;
+      flex: 1;
    }
 
-   .about-hero {
-      background: #6207FF;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-      border-radius: 14px;
-      height: fit-content;
-      padding: 6%;
+   footer {
+      grid-column: 1/4;
    }
+
 }
 
 
