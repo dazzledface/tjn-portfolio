@@ -522,7 +522,7 @@ footer {
       flex: 1 0 auto;
       border-bottom: none;
       background: transparent;
-      align-items: initial;
+      padding-bottom: 5px;
    }
 
    li:hover .nav-item {
