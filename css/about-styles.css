@@ -199,10 +199,16 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (max-width: 768px) {
+   .grid-2 {
+      display: grid;
+      grid-auto-rows: auto;
+      grid-template-columns: 20px 1fr 20px;
+      overflow: hidden;
+   }
 
    .about-content {
       grid-column: 2/3;
-      overflow: auto;
+      overflow-y: scroll;
    }
 
    .about-hero {

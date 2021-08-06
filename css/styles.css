@@ -114,6 +114,7 @@ h4 {
 }
 
 .home-content {
+   grid-column: 2/4;
    overflow-y: scroll;
    padding: 20px;
 }
@@ -652,8 +653,7 @@ footer {
 
    .home-content {
       grid-column: 2/3;
-      grid-row: 2/7;
-      overflow: auto;
+      overflow-y: scroll;
    }
 
    .hero {

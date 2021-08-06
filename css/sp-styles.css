@@ -206,6 +206,7 @@
 .text {
    flex: 1;
    padding: 2%;
+   min-width: 360px;
 }
 
 .methods {
@@ -527,6 +528,19 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (max-width: 1024px) {
+   .grid-2 {
+      display: grid;
+      grid-auto-rows: auto;
+      grid-template-columns: 20px 1fr 20px;
+      overflow: hidden;
+   }
+
+   .sp-content {
+      grid-column: 2/7;
+      overflow-y: scroll;
+      padding: 20px;
+   }
+
    .sp-container-1 {
       grid-column: 2/7;
       grid-row: 2/3;
