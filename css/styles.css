@@ -649,6 +649,7 @@ footer {
       grid-auto-rows: auto;
       grid-template-columns: 20px 1fr 20px;
       overflow: hidden;
+      margin: 0 auto;
    }
 
    .home-content {
@@ -679,7 +680,6 @@ footer {
    .hero2 {
       margin-top: 3%;
       text-align: center;
-
       align-self: center;
    }
 
