@@ -546,6 +546,7 @@ Large devices (1024px or larger)
    .sp-content {
       overflow-y: scroll;
       padding: 20px;
+      margin: 0 auto;
    }
 
    .sp-container-1 {

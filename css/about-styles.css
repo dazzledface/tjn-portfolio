@@ -118,7 +118,24 @@
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (max-width: 768px) {
+   .grid-2 {
+      display: grid;
+      grid-auto-rows: auto;
+      grid-template-columns: 1fr;
+      overflow: hidden;
+   }
+
+   .about-content {
+      padding: 20px;
+      overflow-y: scroll;
+      margin: 0 auto;
+   }
 
 
    .about-hero {
@@ -188,24 +205,6 @@ Medium devices (640px and larger)
       flex: 1.2;
    }
 
-}
-
-/* ==============================
-Large devices (1024px or larger)
-================================= */
-@media only screen and (max-width: 768px) {
-   .grid-2 {
-      display: grid;
-      grid-auto-rows: auto;
-      grid-template-columns: 1fr;
-      overflow: hidden;
-   }
-
-   .about-content {
-      padding: 20px;
-      overflow-y: scroll;
-   }
-
    .about-hero {
       background: #6207FF;
       color: white;
@@ -217,15 +216,16 @@ Large devices (1024px or larger)
       height: fit-content;
       padding: 6%;
    }
+}
 
 
 
-   /* ==============================
+/* ==============================
 X-large devices (1440px or larger)
 ================================= */
-   @media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {}
 
-   /* ==============================
+/* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-   @media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {}
