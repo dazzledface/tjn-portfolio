@@ -521,7 +521,6 @@ footer {
       flex: 1 0 auto;
       border-bottom: none;
       background: transparent;
-      align-items: initial;
       font-weight: 700;
 
    }
@@ -579,8 +578,8 @@ footer {
    #main-menu-toggler-icon,
    #main-menu-toggler-icon:after,
    #main-menu-toggler-icon:before {
-      width: 100%;
-      height: 5px;
+      width: 80%;
+      height: 3px;
       background-color: rgba(22, 22, 22, 1);
       transition: all 0.3s;
       backface-visibility: hidden;
@@ -664,8 +663,6 @@ footer {
    }
 }
 
-@media only screen and (min-width: 1440px) {
-
-}
+@media only screen and (min-width: 1440px) {}
 
 @media only screen and (max-width: 1920px) {}
