@@ -450,6 +450,7 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+
    }
 
    .sc-container-3 {
@@ -490,6 +491,7 @@
 
    .sc-container-5 {
       grid-column: 2/3;
+      margin: 0 auto;
    }
 
    .text {
@@ -509,13 +511,13 @@
    }
 
    img {
-      max-width: 375px;
+      max-width: 360px;
    }
 
    .sc-img-wide {
       border-radius: 14px;
-      max-width: 375px;
-
+      max-width: 360px;
+      margin: 0 auto;
    }
 
    .margin-left {
@@ -524,6 +526,7 @@
 
    .sc-container-6 {
       grid-column: 2/3;
+      margin: 0 auto;
    }
 
    .sc-container-7 {
