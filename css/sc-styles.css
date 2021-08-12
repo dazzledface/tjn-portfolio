@@ -542,6 +542,7 @@
       align-items: center;
       margin: 0 auto;
       margin-top: 0;
+      max-width: 360px;
    }
 
    .text {
@@ -559,6 +560,7 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+      max-width: 360px;
    }
 
    .sc-container-10 {
@@ -566,6 +568,7 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+      max-width: 360px;
    }
 
    .sc-container-11 {
@@ -574,12 +577,13 @@
       align-items: center;
       margin-top: 0px;
       margin: 0 auto;
+      max-width: 360px;
    }
 
    .sc-ui-div {
       align-self: flex-start;
       text-align: left;
-      max-width: 700px;
+      max-width: 360px;
       margin-right: 40px;
    }
 
@@ -592,12 +596,12 @@
       justify-content: center;
       align-items: center;
       margin: 20px auto;
+      max-width: 360px;
    }
 
    .btn-margin {
       margin: 20px auto;
    }
-
 
    .mockup-full img {
       border-radius: 14px;
