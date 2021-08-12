@@ -422,12 +422,7 @@
 /* for mobile screens */
 @media only screen and (max-width: 768px) {
 
-   .grid-2 {
-      display: grid;
-      grid-auto-rows: auto;
-      grid-template-columns: 10px 1fr 10px;
-      overflow: hidden;
-   }
+
 
    .sc-hero {
       grid-column: 2/3;
