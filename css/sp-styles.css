@@ -16,7 +16,7 @@
 .sp-content {
    grid-column: 2/4;
    overflow-y: scroll;
-   padding: 20px;
+   padding-top: 20px;
 }
 
 .sp-hero {
