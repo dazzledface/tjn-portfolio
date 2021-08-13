@@ -839,7 +839,7 @@
 
    .arm {
       grid-column: 2/3;
-      min-width: 340px;
+      max-width: 340px;
       order: 2;
       margin-left: 0px;
    }
@@ -850,8 +850,7 @@
    }
 
    .about-sp {
-      grid-row: 2/3;
-      grid-column: 3/6;
+      grid-column: 2/3;
       margin-left: 0px;
       margin-top: 40px;
       text-align: center;
@@ -887,14 +886,9 @@
       margin: 0 auto;
    }
 
-   .arm {
-      max-width: 340px;
-   }
-
    .hero1 h1 {
       font-size: 2em;
       margin-top: 20px;
-
    }
 
    .hero2 h2 {
@@ -918,7 +912,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding-top: 20px;
       flex-wrap: wrap;
    }
 
@@ -973,12 +966,12 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-end;
+      max-width: 340px;
    }
 
    .margin-left {
       margin-left: 0px;
    }
-
 
    .color {
       flex: 1;
@@ -1008,6 +1001,7 @@
    .text {
       padding: 0;
       text-align: left;
+      max-width: 340px;
    }
 
    .width {
@@ -1032,7 +1026,6 @@
       grid-column: 2/3;
       justify-content: flex-start;
       align-items: center;
-
    }
 
    .sp-ui-div {
