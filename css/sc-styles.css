@@ -551,7 +551,6 @@
       display: flex;
       flex-flow: row wrap;
       justify-content: flex-end;
-      max-width: 340px;
       padding-bottom: 10px;
    }
 
@@ -569,7 +568,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      max-width: 340px;
    }
 
    .margin-left {
@@ -643,7 +641,6 @@
    .sc-ui-img {
       width: 100%;
    }
-
 
    .btn-margin {
       margin: 20px auto;
@@ -745,9 +742,9 @@
       margin: 0 auto;
       max-width: 340px;
    }
-   
+
    .role-col {
-justify-content: flex-end;
+      justify-content: flex-end;
    }
 
    .item-header {
@@ -807,7 +804,7 @@ justify-content: flex-end;
       margin-top: 0;
       max-width: 340px;
    }
-   
+
    .sc-container-9 {
       grid-column: 2/3;
       justify-content: center;
