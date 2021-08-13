@@ -596,11 +596,10 @@
 
    .about-sp {
       grid-row: 2/3;
-      grid-column: 3/6;
-      margin-left: 0px;
-      margin-top: 40px;
       text-align: center;
-      align-self: center;
+      margin: 0 auto;
+      margin-top: 14px;
+      width: 100%;
    }
 
    .sp-ui-div {
@@ -635,7 +634,6 @@
       margin-top: 20px;
       font-size: 1.2em;
    }
-
 
    .sp-container-2 {
       grid-column: 2/3;
