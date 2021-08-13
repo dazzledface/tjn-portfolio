@@ -713,7 +713,7 @@
       justify-content: flex-end;
       max-width: 340px;
       padding-bottom: 10px;
-  }
+   }
 
    .outline-item {
       padding: 4px 8px;
@@ -1010,11 +1010,11 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-     padding: 1%;
+      padding: 1%;
       flex: 1;
       flex-wrap: wrap;
       max-width: 340px;
-  }
+   }
 
    .margin-left {
       margin-left: 0px;
@@ -1069,6 +1069,11 @@
       align-items: center;
    }
 
+   .fonts {
+      margin-left: 0px;
+      margin-top: 0px;
+   }
+
    .sp-container-11 {
       grid-column: 2/3;
       justify-content: flex-start;
@@ -1100,16 +1105,20 @@
 
    .sp-container-13 {
       grid-column: 2/3;
+      display: flex;
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+      text-align: center;
    }
 
    .sp-container-14 {
       grid-column: 2/3;
+      display: flex;
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+      text-align: center;
    }
 
    .mockup-full img {
@@ -1118,9 +1127,11 @@
 
    .sp-container-15 {
       grid-column: 2/3;
+      display: flex;
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+      text-align: center;
    }
 }
 
