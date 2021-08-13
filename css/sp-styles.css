@@ -579,6 +579,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
       width: 100%;
+      margin: 0 auto;
    }
 
    .arm {
@@ -601,8 +602,6 @@
       text-align: center;
       align-self: center;
    }
-
-
 
    .sp-ui-div {
       align-self: flex-start;
@@ -627,11 +626,9 @@
       margin: 0 auto;
    }
 
-
    .hero1 h1 {
       font-size: 2em;
       margin-top: 20px;
-
    }
 
    .hero2 h2 {
@@ -642,10 +639,14 @@
 
    .sp-container-2 {
       grid-column: 2/3;
+      width: 100%;
+      margin: 0 auto;
    }
 
    .sp-container-3 {
       grid-column: 2/3;
+      width: 100%;
+      margin: 0 auto;
    }
 
    .role-time {
@@ -661,13 +662,13 @@
       margin: 0 auto;
    }
 
-
    .sp-container-4 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-
+      width: 100%;
+      margin: 0 auto;
    }
 
    .wires {
@@ -690,42 +691,70 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      margin: 0 auto;
    }
 
    .text {
+      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+   }
 
+   .item-header {
+      display: flex;
+      justify-content: flex-end;
+   }
+
+   .method-items {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      max-width: 340px;
+      padding-bottom: 10px;
+  }
+
+   .outline-item {
+      padding: 4px 8px;
+      border: 1px solid black;
+      text-align: center;
+      margin: 3px;
+      border-radius: 8px;
+      font-weight: 400;
    }
 
    .methods {
+      display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-end;
+      align-items: center;
+      max-width: 340px;
    }
 
    .margin-left {
       margin-left: 0px;
    }
 
-
    .color {
       flex: 1;
-
-      min-width: 80px;
+      width: 80px;
    }
 
    .sp-container-6 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      margin: 0 auto;
    }
 
    .sp-container-7 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      margin: 0 auto;
    }
 
    .sp-container-8 {
@@ -733,6 +762,8 @@
       justify-content: center;
       align-items: center;
       margin-top: 0;
+      width: 100%;
+      margin: 0 auto;
    }
 
    .text {
@@ -750,26 +781,30 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+      width: 100%;
+      margin: 0 auto;
    }
 
    .sp-container-10 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
+      width: 100%;
+      margin: 0 auto;
    }
 
    .sp-container-11 {
       grid-column: 2/3;
       justify-content: flex-start;
       align-items: center;
-
+      width: 100%;
+      margin: 0 auto;
    }
 
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
-
-      margin-right: 40px;
+      margin-right: 0px;
    }
 
    .sp-ui-img {
@@ -781,6 +816,7 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
+      width: 100%;
    }
 
    .btn-margin {
@@ -791,6 +827,7 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
+      width: 100%;
       margin: 0 auto;
    }
 
@@ -798,6 +835,7 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
+      width: 100%;
       margin: 0 auto;
    }
 
@@ -809,6 +847,7 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
+      width: 100%;
       margin: 0 auto;
    }
 }
@@ -818,8 +857,8 @@
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 14px 1fr 14px;
-      overflow: hidden;
+      grid-template-columns: 10px 1fr 10px;
+      overflow-x: hidden;
    }
 
    .sp-content {
@@ -882,8 +921,9 @@
       justify-content: center;
       align-items: center;
       border-radius: 14px;
-      padding: 6%;
+      padding: 4%;
       margin: 0 auto;
+      max-width: 340px;
    }
 
    .hero1 h1 {
@@ -930,7 +970,6 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-
    }
 
    .wires {
@@ -940,6 +979,10 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+   }
+
+   .item-header {
+      max-width: 340px;
    }
 
    .lomidfi {
@@ -953,6 +996,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      max-width: 340px;
    }
 
    .text {
@@ -963,11 +1007,14 @@
    }
 
    .methods {
+      display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: flex-end;
+      align-items: center;
+     padding: 1%;
+      flex: 1;
+      flex-wrap: wrap;
       max-width: 340px;
-   }
+  }
 
    .margin-left {
       margin-left: 0px;
