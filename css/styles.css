@@ -207,10 +207,6 @@ nav {
    align-items: initial;
 }
 
-li:hover .nav-item {
-   font-weight: 700;
-}
-
 .nav-item:after {
    position: absolute;
    left: 0;
@@ -246,7 +242,6 @@ li:hover .nav-item:hover:after {
 
 .active {
    color: black;
-   font-weight: 700;
    text-decoration: none;
    padding: 2%;
    position: relative;
@@ -256,6 +251,7 @@ li:hover .nav-item:hover:after {
 
 .active:after {
    position: absolute;
+   bottom: 0;
    left: 0;
    width: 110%;
    height: 2px;
