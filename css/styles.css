@@ -52,6 +52,7 @@ h2 {
 .subtitle-lg {
    font-size: 1.3em;
    font-family: 'HK Grotesk Regular';
+   text-align: center;
 }
 
 h3 {
@@ -65,7 +66,7 @@ h4 {
    font-size: 1em;
    font-family: 'HK Grotesk Regular';
    font-weight: 300;
-
+   line-height: 1.6;
 }
 
 p {
