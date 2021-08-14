@@ -61,7 +61,6 @@
    display: grid;
    grid-template-columns: repeat(12, 1fr);
    grid-template-rows: 30px 300px 1fr;
-
 }
 
 .arm {
@@ -114,7 +113,7 @@
    flex: 1;
    justify-content: flex-start;
    padding: 0% 2%;
-   min-width: 360px;
+   min-width: 340px;
 }
 
 .problem {
@@ -536,7 +535,20 @@
       justify-content: space-between;
       flex-wrap: wrap;
       width: 100%;
+   }
+
+   .sp-hero {
+      grid-column: 2/3;
+      background: #6207FF;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 14px;
+      padding: 6%;
       margin: 0 auto;
+      margin-bottom: 14px;
    }
 
    .arm {
@@ -802,17 +814,18 @@
    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 10px 1fr 10px;
+      grid-template-columns: 20px 1fr 20px;
       overflow-x: hidden;
    }
 
    .sp-content {
       grid-column: 2/3;
+      max-width: 340px;
       overflow-x: hidden;
       margin: 0 auto;
    }
@@ -829,7 +842,7 @@
 
    .arm {
       grid-column: 2/3;
-      max-width: 340px;
+
       order: 2;
       margin-left: 0px;
    }
@@ -847,20 +860,21 @@
       align-self: center;
    }
 
-   .ui-imgs {
+   .user-div {
       max-width: 340px;
+      margin: 10px;
    }
 
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
-      max-width: 340px;
+
       margin-right: 40px;
    }
 
    .sp-ui-img {
       width: 100%;
-      max-width: 340px;
+
    }
 
    .sp-hero {
@@ -874,7 +888,7 @@
       border-radius: 14px;
       padding: 4%;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .hero1 h1 {
@@ -887,12 +901,15 @@
       font-size: 1.2em;
    }
 
-   .home-img {
-      max-width: 340px;
-   }
+   .home-img {}
 
    .sp-container-2 {
       grid-column: 2/3;
+      max-width: 340px;
+   }
+
+   .prob-obj {
+      padding: 0;
    }
 
    .sp-container-3 {
@@ -908,13 +925,10 @@
 
    .home-img {
       flex: 1;
-      max-width: 340px;
       margin: 0 auto;
    }
 
-   .sp-img {
-      max-width: 340px;
-   }
+   .sp-img {}
 
    .sp-container-4 {
       grid-column: 2/3;
@@ -932,9 +946,7 @@
       align-items: center;
    }
 
-   .item-header {
-      max-width: 340px;
-   }
+   .item-header {}
 
    .lomidfi {
       margin-top: 20px;
@@ -947,14 +959,14 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      max-width: 340px;
+
    }
 
    .text {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      max-width: 340px;
+
    }
 
    .methods {
@@ -964,7 +976,7 @@
       padding: 1%;
       flex: 1;
       flex-wrap: wrap;
-      max-width: 340px;
+
    }
 
    .margin-left {
@@ -999,7 +1011,7 @@
    .text {
       padding: 0;
       text-align: left;
-      max-width: 340px;
+
    }
 
    .width {
@@ -1034,7 +1046,7 @@
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
-      max-width: 340px;
+
       margin-right: 40px;
    }
 
