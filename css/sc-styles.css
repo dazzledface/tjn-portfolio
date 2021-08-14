@@ -36,8 +36,8 @@
    justify-content: flex-start;
    align-items: center;
    border-radius: 14px;
-   padding: 6%;
-   padding-left: 15%;
+   padding: 60px;
+   padding-left: 120px;
    margin-bottom: 20px;
 }
 
@@ -423,7 +423,7 @@
    .sp-content {
       grid-column: 2/3;
       overflow-x: hidden;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 }
 
@@ -443,7 +443,7 @@
    .sc-content {
       grid-column: 2/3;
       overflow-x: hidden;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .sc-container-1 {
@@ -475,7 +475,7 @@
       align-items: center;
       border-radius: 14px;
       padding: 6%;
-      margin: 0 auto;
+      margin: 0px auto;
       margin-bottom: 14px;
    }
 
@@ -501,7 +501,7 @@
    .sc-container-3 {
       grid-column: 2/3;
       width: 100%;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .role-time {
@@ -514,7 +514,7 @@
 
    .home-img {
       flex: 1;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .sc-container-4 {
@@ -523,7 +523,7 @@
       align-items: center;
       flex-direction: column;
       width: 100%;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .wires {
@@ -547,7 +547,7 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .text {
@@ -599,7 +599,7 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .sp-container-7 {
@@ -607,7 +607,7 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .sc-container-8 {
@@ -616,7 +616,7 @@
       align-items: center;
       margin-top: 0;
       width: 100%;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .text {
@@ -633,9 +633,8 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      margin: 0px auto;
       width: 100%;
-      margin: 0 auto;
    }
 
    .sc-container-10 {
@@ -643,9 +642,8 @@
       justify-content: center;
       align-items: center;
       width: 100%;
-      margin: 0 auto;
+      margin: 0px auto;
    }
-
 
    .sc-ui-div {
       align-self: flex-start;
@@ -678,7 +676,7 @@
    .sp-content {
       grid-column: 2/3;
       overflow-x: hidden;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .sc-hero {
@@ -691,7 +689,7 @@
       align-items: center;
       border-radius: 14px;
       padding: 8%;
-      margin: 0 auto;
+      margin: 0px auto;
       margin-bottom: 14px;
    }
 
@@ -710,7 +708,7 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      margin: 0px auto;
 
    }
 
@@ -718,7 +716,7 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      margin: 0px auto;
 
    }
 
@@ -728,7 +726,7 @@
       justify-content: center;
       padding-top: 20px;
       flex-wrap: wrap;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .sc-container-4 {
@@ -743,7 +741,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .user-div {
@@ -752,7 +750,7 @@
 
    .sc-container-5 {
       grid-column: 2/3;
-      margin: 0 auto;
+      margin: 0px auto;
 
    }
 
@@ -766,7 +764,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      margin: 0px auto;
 
    }
 
@@ -774,7 +772,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: flex-end;
-      margin: 0 auto;
+      margin: 0px auto;
       margin-right: 10px;
       max-width: 340px;
    }
@@ -785,8 +783,7 @@
 
    .sc-img-wide {
       border-radius: 14px;
-
-      margin: 0 auto;
+      margin: 0px auto;
    }
 
    .margin-left {
@@ -795,15 +792,14 @@
 
    .sc-container-6 {
       grid-column: 2/3;
-      margin: 0 auto;
-
+      margin: 0px auto;
    }
 
    .sc-container-7 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      margin: 0px auto;
 
    }
 
@@ -811,16 +807,15 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
-      margin-top: 0;
-
+      margin: 0px auto;
+      margin-top: 0px;
    }
 
    .sc-container-9 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      margin: 0px auto;
 
    }
 
@@ -828,7 +823,7 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      margin: 0 auto;
+      margin: 0px auto;
 
    }
 
