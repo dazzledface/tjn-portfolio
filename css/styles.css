@@ -55,17 +55,21 @@ h2 {
 }
 
 h3 {
-   font-size: 1.2em;
+   font-size: 1.1em;
    font-family: 'HK Grotesk Regular';
    font-weight: 700;
    line-height: 1.5em;
 }
 
 h4 {
-   font-size: 1.2em;
+   font-size: 1em;
    font-family: 'HK Grotesk Regular';
    font-weight: 300;
    line-height: 1.7em;
+}
+
+p {
+   font-size: 1em;
 }
 
 .link-wht {
