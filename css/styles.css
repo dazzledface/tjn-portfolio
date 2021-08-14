@@ -113,8 +113,17 @@ h4 {
 
 .home-content {
    grid-column: 2/4;
-   overflow-y: scroll;
    padding: 20px;
+   overflow-y: scroll;
+}
+
+.home-content::-webkit-scrollbar {
+   display: none;
+}
+
+.home-content {
+   -ms-overflow-style: none;
+   scrollbar-width: none;
 }
 
 /* header/nav */
@@ -615,7 +624,7 @@ footer {
    }
 
    .home-content {
-      overflow-y: scroll;
+
       padding-top: 20px;
    }
 

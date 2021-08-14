@@ -15,9 +15,17 @@
 
 .sp-content {
    grid-column: 2/4;
-   overflow-y: scroll;
    padding-top: 20px;
-   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+.sp-content::-webkit-scrollbar {
+   display: none;
+}
+
+.sp-content {
+   -ms-overflow-style: none;
+   scrollbar-width: none;
 }
 
 .sp-hero {

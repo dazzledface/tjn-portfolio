@@ -15,8 +15,17 @@
 
 .sc-content {
    grid-column: 2/4;
+   padding: 20px;
    overflow-y: scroll;
-   padding-top: 20px;
+}
+
+.sc-content::-webkit-scrollbar {
+   display: none;
+}
+
+.sc-content {
+   -ms-overflow-style: none;
+   scrollbar-width: none;
 }
 
 .sc-hero {
