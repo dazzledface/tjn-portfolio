@@ -119,12 +119,14 @@ h4 {
    overflow-y: scroll;
 }
 
-.home-content::-webkit-scrollbar {
+
+.homer-content::-webkit-scrollbar {
    display: none;
 }
 
 .home-content {
    -ms-overflow-style: none;
+   scrollbar-width: none;
 }
 
 /* header/nav */
