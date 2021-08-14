@@ -221,6 +221,7 @@
 
 .sc-img-wide {
    border-radius: 14px;
+   width: 100%;
    min-width: 375px;
    display: flex;
 }
@@ -418,15 +419,16 @@
 }
 
 @media only screen and (max-width: 768px) {
-   .sc-about {
-      font-size: 1.1em;
-   }
 
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
       grid-template-columns: 20px 1fr 20px;
       overflow: hidden;
+   }
+
+   .sc-about {
+      font-size: 1.1em;
    }
 
    .sc-content {
@@ -465,6 +467,7 @@
       border-radius: 14px;
       padding: 6%;
       margin: 0 auto;
+      margin-bottom: 14px;
    }
 
    .hero1 h1 {
@@ -483,7 +486,7 @@
    }
 
    .img-limit {
- order: 1;
+      order: 1;
    }
 
    .sc-container-3 {
@@ -659,7 +662,7 @@
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 10px 1fr 10px;
+      grid-template-columns: 20px 1fr 20px;
       overflow: hidden;
    }
 
@@ -680,7 +683,6 @@
       border-radius: 14px;
       padding: 8%;
       margin: 0 auto;
-      max-width: 340px;
       margin-bottom: 14px;
    }
 
@@ -700,7 +702,7 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .sc-container-3 {
@@ -708,7 +710,7 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .role-time {
@@ -718,12 +720,11 @@
       padding-top: 20px;
       flex-wrap: wrap;
       margin: 0 auto;
-      max-width: 340px;
    }
 
    .sc-container-4 {
       grid-column: 2/3;
-      max-width: 340px;
+
    }
 
    .wires {
@@ -743,23 +744,21 @@
    .sc-container-5 {
       grid-column: 2/3;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .role-col {
       justify-content: flex-end;
    }
 
-   .item-header {
-      max-width: 340px;
-   }
+   .item-header {}
 
    .text {
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .methods {
@@ -771,13 +770,13 @@
       max-width: 340px;
    }
 
-   img {
-      max-width: 340px;
+   .sc-caption-font {
+      max-width: 360px;
    }
 
    .sc-img-wide {
       border-radius: 14px;
-      max-width: 340px;
+
       margin: 0 auto;
    }
 
@@ -788,7 +787,7 @@
    .sc-container-6 {
       grid-column: 2/3;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .sc-container-7 {
@@ -796,7 +795,7 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .sc-container-8 {
@@ -805,7 +804,7 @@
       align-items: center;
       margin: 0 auto;
       margin-top: 0;
-      max-width: 340px;
+
    }
 
    .sc-container-9 {
@@ -813,7 +812,7 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .sc-container-10 {
@@ -821,13 +820,13 @@
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      max-width: 340px;
+
    }
 
    .sc-ui-div {
       align-self: flex-start;
       text-align: left;
-      max-width: 340px;
+
       margin-right: 0px;
    }
 
