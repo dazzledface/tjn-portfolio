@@ -73,9 +73,7 @@ h4 {
    font-family: 'HK Grotesk Medium';
 }
 
-.more-btn:hover .link-wht {
-   font-weight: 700;
-}
+.more-btn:hover .link-wht {}
 
 .link-blk {
    text-decoration: none;
@@ -191,7 +189,6 @@ nav {
    flex-flow: row nowrap;
    flex-direction: row;
    justify-content: flex-end;
-
 }
 
 .nav-item {
@@ -251,7 +248,6 @@ li:hover .nav-item:hover:after {
 
 .active:after {
    position: absolute;
-   bottom: 0;
    left: 0;
    width: 110%;
    height: 2px;
