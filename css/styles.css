@@ -368,6 +368,11 @@ li:hover .nav-item:hover:after {
    background: #90B301;
 }
 
+.orange {
+   background: #febf7f;
+ 
+}
+
 .proj-img {
    width: 100%;
    border-radius: 14px;
@@ -377,6 +382,7 @@ li:hover .nav-item:hover:after {
 .proj-img-lg {
    width: 100%;
 }
+
 
 .proj-txt {
    flex: 4;
