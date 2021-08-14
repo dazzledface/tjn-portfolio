@@ -138,9 +138,6 @@
       padding: 20px;
    }
 
-   .profile-photo-div {
-      grid-column: 2/3;
-   }
 
    .story {
       grid-column: 2/3;
@@ -150,15 +147,15 @@
       margin: 0px auto;
       margin-top: 20px;
       flex-wrap: wrap;
-      min-width: 340px;
+
    }
 
    .info {
-      display: flex;
-      flex-direction: column;
       background: #ffffff;
       border-radius: 14px;
       margin-top: 20px;
+      padding: 20px;
+      min-width: auto;
    }
 
    .info-btns {
@@ -200,5 +197,4 @@
    footer {
       grid-column: 1/4;
    }
-
 }
