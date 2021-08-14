@@ -119,8 +119,7 @@ h4 {
    overflow-y: scroll;
 }
 
-
-.homer-content::-webkit-scrollbar {
+.home-content::-webkit-scrollbar {
    display: none;
 }
 
