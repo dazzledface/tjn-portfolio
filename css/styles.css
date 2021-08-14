@@ -41,7 +41,10 @@ h1 {
    margin-block-end: 0em;
    margin-inline-start: 0px;
    margin-inline-end: 0px;
+   font-family: 'HK Grotesk Medium';
 }
+
+
 
 h2 {
    font-size: 1.7em;
@@ -71,6 +74,7 @@ h4 {
 
 p {
    font-size: 1em;
+   line-height: 1.3em;
 }
 
 .link-wht {
@@ -276,20 +280,17 @@ li:hover .nav-item:hover:after {
    background: #6207FF;
    color: white;
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
    border-radius: 14px;
-   height: fit-content;
    padding: 60px;
-   padding-left: 140px;
+   padding-left: 160px;
    margin-bottom: 20px;
 }
 
 .hero1 {
    position: relative;
-   max-width: 200px;
-   margin-right: 14px;
-   flex: 1;
+   margin-right: 20px;
 }
 
 .hero1::before {
@@ -312,10 +313,10 @@ li:hover .nav-item:hover:after {
 }
 
 .hero2 {
-   flex: 5;
-   max-width: 60%;
-   margin-top: 16px;
-   align-self: flex-end;
+   flex: 4;
+   max-width: 70%;
+   margin-top: 10px;
+   padding-right: 80px;
 }
 
 /* projects */
@@ -370,7 +371,7 @@ li:hover .nav-item:hover:after {
 
 .orange {
    background: #febf7f;
- 
+
 }
 
 .proj-img {
@@ -630,7 +631,7 @@ footer {
       flex-direction: column;
       align-items: center;
       border-radius: 14px;
-      padding: 6%;
+      padding: 20px;
    }
 
    .hero1 {
@@ -643,9 +644,10 @@ footer {
    }
 
    .hero2 {
-      margin-top: 14px;
+      margin-top: 10px;
       text-align: center;
-      align-self: center;
+      margin-left: 0;
+      padding-right: 0px;
    }
 
    .hero2 h2 {
