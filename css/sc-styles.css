@@ -133,12 +133,15 @@
 .sc-container-4 {
    grid-column: 2/4;
    display: flex;
-   flex-direction: column;
-   justify-content: space-between;
    align-items: center;
    flex-wrap: wrap;
-   margin-top: 2rem;
-   width: 100%;
+}
+
+.sc-container-4>* {
+   flex: 1 1 60em;
+   margin: 1rem;
+   min-width: 50%;
+   max-width: 100%;
 }
 
 .users {
@@ -162,18 +165,14 @@
 .methods {
    display: flex;
    flex-direction: column;
-   padding: 2rem;
-   flex: 1;
-   text-align: right;
    flex-wrap: wrap;
-   min-width: 34rem;
 }
 
 .method-items {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: flex-end;
+   justify-content: flex-start;
    min-width: 34rem;
 }
 
@@ -189,8 +188,8 @@
 
 .sc-img-med {
    border-radius: 14px;
-  width: 50%;
-  min-width: 34rem;
+   width: 50%;
+   min-width: 34rem;
    flex: 1;
 }
 
@@ -321,10 +320,15 @@
    grid-column: 2/4;
    display: flex;
    justify-content: space-between;
-   align-items: stretch;
    flex-wrap: wrap;
-   margin-top: 2rem;
-   width: 100%;
+
+}
+
+.sc-container-9>* {
+   flex: 1 1 60em;
+   margin: 1rem;
+   min-width: 50%;
+   max-width: 100%;
 }
 
 .sc-container-10 {
@@ -464,11 +468,6 @@
 
    .sc-container-4 {
       grid-column: 2/3;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      width: 100%;
-      margin: 0px auto;
    }
 
    .wires {
@@ -567,10 +566,6 @@
 
    .sc-container-9 {
       grid-column: 2/3;
-      justify-content: center;
-      align-items: center;
-      margin: 0px auto;
-      width: 100%;
    }
 
    .sc-container-10 {
@@ -714,9 +709,6 @@
 
    .sc-container-9 {
       grid-column: 2/3;
-      justify-content: center;
-      align-items: center;
-      margin: 0px auto;
    }
 
    .sc-container-10 {
