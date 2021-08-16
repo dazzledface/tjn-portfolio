@@ -4,39 +4,21 @@
    font-family: 'HK Grotesk Regular';
 }
 
-/*
-header ul,
-menu,
-dir {
-   margin-block-end: 0;
-   margin-block-start: 0;
-   padding-inline-start: 0;
-   -webkit-padding-start: 0;
+html {
+   font-size: 62.5%;
 }
-
-:root {
-   --maxSiteWidth: 1080px;
-}
-*/
 
 body {
    font-family: 'HK Grotesk Regular';
-   font-size: 16px;
+   font-size: 1rem;
    line-height: 1.6;
    background: #f8f8f8;
    overflow: hidden;
 }
 
-h1,
-h2,
-h3,
-h4 {
-   line-height: 1.3em;
-}
-
-
 h1 {
-   font-size: 2.5em;
+   font-size: 4.4rem;
+   line-height: 5.5rem;
    margin-block-start: 0em;
    margin-block-end: 0em;
    margin-inline-start: 0px;
@@ -44,43 +26,50 @@ h1 {
    font-family: 'HK Grotesk Medium';
 }
 
-
-
 h2 {
-   font-size: 1.7em;
+   font-size: 3rem;
    font-weight: 400;
    font-family: 'HK Grotesk Regular';
 }
 
 .subtitle-lg {
-   font-size: 1.3em;
+   font-size: 2.1rem;
+   line-height: 3rem;
    font-family: 'HK Grotesk Regular';
    text-align: center;
 }
 
 h3 {
-   font-size: 1.1em;
+   font-size: 2.2rem;
    font-family: 'HK Grotesk Regular';
    font-weight: 700;
-   line-height: 1.5em;
+   line-height: 2.8rem;
 }
 
 h4 {
-   font-size: 1em;
+   font-size: 1.8rem;
    font-family: 'HK Grotesk Regular';
    font-weight: 300;
-   line-height: 1.6;
+   line-height: 2.5rem;
 }
 
 p {
-   font-size: 1em;
-   line-height: 1.3em;
+   font-size: 1.6rem;
+   line-height: 2rem;
+}
+
+a {
+   font-size: 1.6rem;
+}
+
+.text {
+   max-width: 75ch;
 }
 
 .link-wht {
    text-decoration: none;
    color: white;
-   font-size: 1.1em;
+   font-size: 1.6rem;
    font-family: 'HK Grotesk Medium';
 }
 
@@ -89,13 +78,13 @@ p {
 .link-blk {
    text-decoration: none;
    color: black;
-   font-size: 1.1em;
+   font-size: 1.6rem;
    font-family: 'HK Grotesk Medium';
 }
 
 .link-blk:hover {
    text-decoration: underline;
-   font-size: 1.1em;
+   font-size: 1.6rem;
    font-family: 'HK Grotesk Medium';
 }
 
@@ -124,8 +113,8 @@ p {
 
 .home-content {
    grid-column: 2/4;
-   padding: 20px;
    overflow-y: scroll;
+   padding-top: 2rem;
 }
 
 .home-content::-webkit-scrollbar {
@@ -147,40 +136,32 @@ p {
    background: white;
    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
    z-index: 10;
-   height: 80px;
+   height: 8rem;
 }
 
 .header-content {
    width: 80%;
-   height: 70px;
+   height: 7rem;
    margin: 0px auto;
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-between;
-   margin-top: 30px;
+   margin-top: 3rem;
 }
 
 .logo-div {
    grid-column: 2/3;
    grid-row: 2/3;
-   flex: 0 0 200px;
+   flex: 0 0 2rem;
    text-align: center;
    align-items: center;
    justify-content: center;
 }
 
-.mainMenu,
-nav,
-main,
-footer {
-   max-width: var(--maxSiteWidth);
-}
-
-
 .tjn {
    font-family: 'HK Grotesk Regular';
-   max-height: 1.2em;
-   margin-top: 15px;
+   max-height: 2rem;
+   margin-top: 1.3rem;
 }
 
 ul {
@@ -194,7 +175,6 @@ ul {
 
 li {
    display: inline-block;
-   padding: 10px 14px 10px 14px;
 }
 
 .mainMenu {
@@ -203,12 +183,13 @@ li {
    flex-flow: row nowrap;
    flex-direction: row;
    justify-content: flex-end;
+   margin-top: 1rem;
 }
 
 .nav-item {
    color: black;
    text-decoration: none;
-   padding: 8px;
+   padding: 0.5em;
    position: relative;
    z-index: 0;
    cursor: pointer;
@@ -216,6 +197,7 @@ li {
    border-bottom: none;
    background: transparent;
    align-items: initial;
+   margin: 5px;
 }
 
 .nav-item:after {
@@ -223,7 +205,7 @@ li {
    left: 0;
    bottom: 0;
    width: 100%;
-   height: 2px;
+   height: 0.2rem;
    background: black;
    content: "";
    opacity: 0;
@@ -231,12 +213,12 @@ li {
 }
 
 li:hover .nav-item:after {
-   transform: translateY(-6px);
+   transform: translateY(-0.6rem);
 }
 
 li:hover .nav-item:hover:after {
    opacity: 1;
-   transform: translateY(0px);
+   transform: translateY(0rem);
 }
 
 .active {
@@ -244,7 +226,8 @@ li:hover .nav-item:hover:after {
    text-decoration: none;
    position: relative;
    cursor: pointer;
-   padding: 8px;
+   padding: 0.5em;
+   margin: 0.5rem;
 }
 
 .active:after {
@@ -252,7 +235,7 @@ li:hover .nav-item:hover:after {
    left: 0;
    bottom: 0;
    width: 100%;
-   height: 2px;
+   height: 0.2rem;
    background: #6207FF;
    content: "";
    opacity: 1;
@@ -283,29 +266,29 @@ li:hover .nav-item:hover:after {
    justify-content: center;
    align-items: center;
    border-radius: 14px;
-   padding: 60px;
-   padding-left: 160px;
-   margin-bottom: 20px;
+   padding: 6rem;
+   padding-left: 16rem;
+   margin-bottom: 2rem;
 }
 
 .hero1 {
    position: relative;
-   margin-right: 20px;
+   margin-right: 2rem;
 }
 
 .hero1::before {
    position: absolute;
-   left: -20px;
+   left: -2rem;
    height: 100%;
-   width: 6px;
+   width: 0.6rem;
    background: #FFF05A;
    content: "";
 }
 
 .hero1::after {
    position: absolute;
-   bottom: -8px;
-   height: 3px;
+   bottom: -0.8rem;
+   height: 0.3rem;
    width: 100%;
    background: #FFF05A;
    content: "";
@@ -315,8 +298,8 @@ li:hover .nav-item:hover:after {
 .hero2 {
    flex: 4;
    max-width: 70%;
-   margin-top: 10px;
-   padding-right: 80px;
+   margin-top: 1rem;
+   padding-right: 8rem;
 }
 
 /* projects */
@@ -351,14 +334,14 @@ li:hover .nav-item:hover:after {
    border-radius: 14px;
    background: #ffffff;
    padding: 2%;
-   margin-top: 20px;
+   margin-top: 2rem;
 }
 
 .proj-img-div {
    flex: 5;
    border-radius: 14px;
    text-align: center;
-   min-width: 310px;
+   min-width: 34rem;
 }
 
 .yellow {
@@ -384,11 +367,10 @@ li:hover .nav-item:hover:after {
    width: 100%;
 }
 
-
 .proj-txt {
    flex: 4;
    padding: 3%;
-   min-width: 310px;
+   min-width: 34rem;
 }
 
 .more-btn {
@@ -399,10 +381,10 @@ li:hover .nav-item:hover:after {
 }
 
 .more-btn {
-   padding: 8px 4% 8px 4%;
+   padding: 0.8em 0.6em;
    text-align: center;
    transition: 0.5s;
-   max-width: 300px;
+   max-width: 34rem;
    background-size: 200% auto;
    border-radius: 8px;
    box-shadow: 0 0 20px #eee;
@@ -412,19 +394,6 @@ li:hover .nav-item:hover:after {
 
 .more-btn:hover {
    background-position: right center;
-}
-
-.yellow-btn {
-   height: 50px;
-   width: 200px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: #FFF05A;
-   text-align: center;
-   border-radius: 8px;
-   color: white;
-   margin-bottom: 12px;
 }
 
 /* footer */
@@ -442,13 +411,13 @@ footer {
    display: flex;
    justify-content: center;
    align-items: center;
-   min-width: 300px;
-   margin-top: 20px;
+   min-width: 34rem;
+   margin-top: 2rem;
 }
 
 .icon {
-   margin-left: 10px;
-   margin-right: 10px;
+   margin-left: 1rem;
+   margin-right: 1rem;
 }
 
 .copyright {
@@ -458,7 +427,76 @@ footer {
 }
 
 .btn-margin {
-   margin: 0px 10px 0px 0px;
+   margin: 0rem 1rem 0rem 0rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+   .grid-2 {
+      display: grid;
+      grid-auto-rows: auto;
+      grid-template-columns: 2em 1fr 2em;
+      overflow: hidden;
+   }
+
+   .home-content {
+      grid-column: 2/3;
+      overflow-y: scroll;
+      padding-top: 2em;
+   }
+
+   .hero {
+      grid-column: 2/3;
+      background: #6207FF;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 14px;
+      padding: 2em;
+   }
+
+   .hero1 {
+      margin-top: 1.2rem;
+      text-align: center;
+      margin-right: 0;
+   }
+
+   .hero1 h1 {
+      font-size: 3rem;
+      line-height: 4rem;
+   }
+
+   .hero2 {
+      margin-top: 1em;
+      text-align: center;
+      margin-left: 0;
+      padding-right: 0px;
+   }
+
+   .hero2 h2 {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+   }
+
+   .hero1::before {
+      position: absolute;
+      height: 100%;
+      width: 0.6em;
+      background: #FFF05A;
+      content: "";
+      display: none;
+   }
+
+   .hero1::after {
+      position: absolute;
+      bottom: -0.8em;
+      height: 0.4em;
+      width: 100%;
+      background: #FFF05A;
+      content: "";
+      display: block;
+   }
 }
 
 @media only screen and (max-width: 640px) {
@@ -468,7 +506,7 @@ footer {
 
    .mainMenu {
       position: fixed;
-      top: 80px;
+      top: 8em;
       right: 0;
       width: 100%;
       flex-flow: column nowrap;
@@ -482,70 +520,9 @@ footer {
       text-align: center;
       background: rgba(255, 255, 255, 1);
       border-radius: 6px;
-      padding: 10px;
+      padding: 1em;
       border-top: 1px dotted grey;
 
-   }
-
-   .nav-item {
-      color: black;
-      text-decoration: none;
-      position: relative;
-      z-index: 0;
-      cursor: pointer;
-      flex: 1 0 auto;
-      border-bottom: none;
-      background: transparent;
-      padding-bottom: 5px;
-   }
-
-   li:hover .nav-item {
-      font-weight: 700;
-   }
-
-   .nav-item:after {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 2px;
-      background: black;
-      content: "";
-      opacity: 0;
-      transition: all 0.3s;
-   }
-
-   li:hover .nav-item:after {
-      transform: translateY(-6px);
-   }
-
-   li:hover .nav-item:after {
-      opacity: 1;
-      transform: translateY(0px);
-   }
-
-   .active {
-      color: black;
-      text-decoration: none;
-      position: relative;
-      z-index: 0;
-      cursor: pointer;
-      flex: 1 0 auto;
-      border-bottom: none;
-      background: transparent;
-      font-weight: 700;
-
-   }
-
-   .active:after {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 2px;
-      background: black;
-      content: "";
-      opacity: 1;
-      background: #6207FF;
-      transition: all 0.3s;
    }
 
    #show-menu-input-checkbox {
@@ -558,12 +535,12 @@ footer {
    }
 
    #main-menu-toggler {
-      width: 80px;
-      height: 80px;
+      width: 8rem;
+      height: 8rem;
       position: fixed;
-      top: 10px;
-      right: 20px;
-      padding: 24px;
+      top: 1rem;
+      right: 2rem;
+      padding: 2.4rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -574,11 +551,11 @@ footer {
       content: "";
       position: absolute;
       left: 0;
-      top: -9px;
+      top: -0.9rem;
    }
 
    #main-menu-toggler-icon:after {
-      top: 9px;
+      top: 0.9rem;
    }
 
    #main-menu-toggler-icon {
@@ -590,7 +567,7 @@ footer {
    #main-menu-toggler-icon:after,
    #main-menu-toggler-icon:before {
       width: 80%;
-      height: 3px;
+      height: 0.3rem;
       background-color: rgba(22, 22, 22, 1);
       transition: all 0.3s;
       backface-visibility: hidden;
@@ -603,73 +580,11 @@ footer {
    }
 
    #show-menu-input-checkbox:checked~#main-menu-toggler>#main-menu-toggler-icon:before {
-      transform: rotate(45deg) translate(5px, 5px);
+      transform: rotate(45deg) translate(0.5rem, 0.5rem);
    }
 
    #show-menu-input-checkbox:checked~#main-menu-toggler>#main-menu-toggler-icon:after {
-      transform: rotate(-45deg) translate(7px, -8px);
+      transform: rotate(-45deg) translate(0.7rem, -0.8rem);
    }
 
-}
-
-@media only screen and (max-width: 768px) {
-   .grid-2 {
-      display: grid;
-      grid-auto-rows: auto;
-      grid-template-columns: 1fr;
-      overflow: hidden;
-   }
-
-   .home-content {
-      padding-top: 20px;
-   }
-
-   .hero {
-      background: #6207FF;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border-radius: 14px;
-      padding: 20px;
-   }
-
-   .hero1 {
-      margin-top: 14px;
-      text-align: center;
-   }
-
-   .hero1 h1 {
-      font-size: 2em;
-   }
-
-   .hero2 {
-      margin-top: 10px;
-      text-align: center;
-      margin-left: 0;
-      padding-right: 0px;
-   }
-
-   .hero2 h2 {
-      font-size: 1.2em;
-   }
-
-   .hero1::before {
-      position: absolute;
-      height: 100%;
-      width: 6px;
-      background: #FFF05A;
-      content: "";
-      display: none;
-   }
-
-   .hero1::after {
-      position: absolute;
-      bottom: -8px;
-      height: 4px;
-      width: 100%;
-      background: #FFF05A;
-      content: "";
-      display: block;
-   }
 }

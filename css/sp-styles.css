@@ -649,12 +649,23 @@
       margin: 0px auto;
    }
 
-   .role-time {
+   .role-col {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-top: 20px;
+      justify-content: flex-end;
       flex-wrap: wrap;
+      padding: 20px;
+      min-width: 340px;
+      flex: 4;
+   }
+   
+   .time-col {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      padding: 20px;
+      margin-left: 20px;
+      min-width: 340px;
+      flex: 1;
    }
 
    .home-img {
