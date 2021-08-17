@@ -430,6 +430,10 @@ footer {
    margin: 0rem 1rem 0rem 0rem;
 }
 
+.help {
+   text-align: center;
+}
+
 
 @media only screen and (max-width: 768px) {
    .grid-2 {
