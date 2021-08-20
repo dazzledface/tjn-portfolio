@@ -378,9 +378,6 @@ li:hover .nav-item:hover:after {
          #6207FF 2%,
          #6207FF 51%,
          #F2E9DC 100%);
-}
-
-.more-btn {
    padding: 0.8em 0.6em;
    text-align: center;
    transition: 0.5s;
@@ -390,6 +387,7 @@ li:hover .nav-item:hover:after {
    box-shadow: 0 0 20px #eee;
    display: block;
    margin: 0px auto;
+   min-width: 30rem;
 }
 
 .more-btn:hover {
@@ -400,7 +398,6 @@ li:hover .nav-item:hover:after {
 
 footer {
    grid-column: 1/5;
-   grid-row: 6/7;
    display: flex;
    flex-direction: column;
    justify-content: center;
