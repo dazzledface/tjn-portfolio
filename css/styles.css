@@ -101,13 +101,13 @@ a {
    width: 100vw;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 80px 1fr;
+   grid-template-rows: 8rem 1fr;
 }
 
 .grid-2 {
    display: grid;
    grid-auto-rows: auto;
-   grid-template-columns: 1fr 6fr 6fr 6fr 1fr;
+   grid-template-columns: 1fr 6fr 6fr 1fr;
    overflow: hidden;
 }
 
@@ -129,7 +129,7 @@ a {
 /* header/nav */
 
 .header {
-   grid-column: 1/5;
+   grid-column: 1/2;
    grid-row: 1/2;
    width: 100%;
    margin: 0px auto;
@@ -252,8 +252,7 @@ li:hover .nav-item:hover:after {
 /* main & hero */
 
 .home-content {
-   grid-column: 2/4;
-   grid-row: auto;
+   grid-column: 2/5;
    overflow: auto;
 }
 
@@ -350,7 +349,6 @@ li:hover .nav-item:hover:after {
    padding: 2%;
    margin-top: 2rem;
 }
-
 
 .proj-img-div {
    flex: 5;
@@ -451,7 +449,6 @@ footer {
 @media only screen and (max-width: 768px) {
    .grid-2 {
       display: grid;
-      grid-auto-rows: auto;
       grid-template-columns: 2em 1fr 2em;
       overflow: hidden;
    }
