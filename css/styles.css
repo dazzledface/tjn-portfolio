@@ -386,8 +386,8 @@ li:hover .nav-item:hover:after {
    border-radius: 8px;
    box-shadow: 0 0 20px #eee;
    display: block;
-   margin: 0px auto;
-   min-width: 30rem;
+   margin: 10px auto;
+   min-width: 26rem;
 }
 
 .more-btn:hover {
