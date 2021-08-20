@@ -398,6 +398,7 @@ li:hover .nav-item:hover:after {
 
 footer {
    grid-column: 1/5;
+   grid-row: 5/6;
    display: flex;
    flex-direction: column;
    justify-content: center;
