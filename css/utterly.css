@@ -637,7 +637,7 @@
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 20px 1fr 20px;
+      grid-template-columns: 1rem 1fr 1rem;
       overflow: hidden;
    }
 

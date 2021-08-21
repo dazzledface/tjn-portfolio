@@ -455,7 +455,7 @@ footer {
 @media only screen and (max-width: 768px) {
    .grid-2 {
       display: grid;
-      grid-template-columns: 2em 1fr 2em;
+      grid-template-columns: 1rem 1fr 1rem;
       overflow: hidden;
    }
 
@@ -517,7 +517,6 @@ footer {
       content: "";
       display: block;
    }
-
 
    .nav-menu {
       position: fixed;
