@@ -23,30 +23,24 @@
 
 <body>
    <div class="grid-1">
-      <header class="header">
-         <div class="header-content">
-            <div class="logo-div">
-               <a href="index.html"><img class="tjn" src="img/tjn/tjn-logo.png" alt="Tessa Joseph-Nicholas Logo"></a>
+      <header>
+         <nav class="navbar">
+            <a href="index.html"><img class="tjn" src="img/tjn/tjn-logo.png" alt="Tessa Joseph-Nicholas Logo"></a>
+            <div class="hamburger">
+               <p class="bar"></p>
             </div>
-            <nav>
-               <input type="checkbox" id="show-menu-input-checkbox" role="button">
-               <label for="show-menu-input-checkbox" id="main-menu-toggler"
-                  class="flex-container flex-vcenter flex-hcenter">
-                  <div id="main-menu-toggler-icon" class="flex-grow"></div>
-               </label>
-               <ul class="mainMenu accordion">
-                  <li><a class="active" href="index.html">
-                        Work
-                     </a></li>
-                  <li><a class="nav-item" href="about.html">
-                        About
-                     </a></li>
-                  <li><a class="nav-item" href="#sc-footer">
-                        Contact
-                     </a></li>
-               </ul>
-            </nav>
-         </div>
+            <ul class="nav-menu">
+               <li class="nav-item"><a class="active-link" href="index.html">
+                     Work
+                  </a></li>
+               <li class="nav-item"><a class="nav-link" href="about.html">
+                     About
+                  </a></li>
+               <li class="nav-item"><a class="nav-link" href="#contact">
+                     Contact
+                  </a></li>
+            </ul>
+         </nav>
       </header>
 
       <div class="grid-2">
@@ -298,8 +292,8 @@
                   </div>
                </div>
 
-               <div class="methods">       
-                     <h2>Features</h2>   
+               <div class="methods">
+                  <h2>Features</h2>
                   <div class="method-items">
                      <div class="outline-item">Account & profile</div>
                      <div class="outline-item">Favorites</div>
@@ -339,7 +333,7 @@
                </div>
             </div>
 
-            <d id="sc-footer">
+            <footer id="contact">
                <h2 class="help">Can I help you?</h2>
                <div class="more-btn"><a class="link-wht" href="mailto:dazzledface@gmail.com">If so, get in touch!</a>
                </div>
@@ -379,6 +373,9 @@
          </div>
       </div>
    </div>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>
