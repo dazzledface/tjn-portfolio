@@ -3,7 +3,7 @@
    width: 100vw;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 80px 1fr;
+   grid-template-rows: 8rem 1fr;
 }
 
 .grid-2 {
@@ -15,7 +15,7 @@
 
 .sp-content {
    grid-column: 2/4;
-   padding-top: 20px;
+   padding-top: 2rem;
    overflow-y: scroll;
 }
 
@@ -28,40 +28,40 @@
    scrollbar-width: none;
 }
 
-. .sp-container-1 {
+.sp-container-1 {
    grid-column: 2/4;
    display: grid;
    grid-template-columns: repeat(12, 1fr);
-   grid-template-rows: 30px 300px 1fr;
+   grid-template-rows: 3rem 30rem 1fr;
 }
 
 .arm {
-   margin-left: 50px;
+   margin-left: 5rem;
    grid-column: 1/8;
    grid-row: 1/4;
 }
 
 .sp-logo-div {
-   max-width: 200px;
-   margin-top: 20px;
+   max-width: 20rem;
+   margin-top: 2rem;
 }
 
 .about-sp {
    grid-row: 2/3;
    grid-column: 5/12;
-   font-size: 1em;
+   font-size: 1rem;
    text-align: center;
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
    align-items: center;
-   margin: 20px;
+
 }
 
 .sp-font {
    font-family: "Vollkorn", serif;
    font-weight: 400;
-   font-size: 3em;
+   font-size: 3rem;
 }
 
 .sp-img {
@@ -83,23 +83,23 @@
    flex-direction: column;
    flex: 1;
    justify-content: flex-start;
-   padding: 0px 20px;
-   min-width: 360px;
+   padding: 0px 2rem;
+   min-width: 34rem;
 }
 
 .problem {
    text-align: center;
-   min-width: 360px;
+   min-width: 34rem;
 }
 
 .objective {
    text-align: center;
-   min-width: 360px;
+   min-width: 34rem;
 }
 
 .home-img {
    flex: 1.3;
-   min-width: 360px;
+   min-width: 34rem;
 }
 
 .sp-container-3 {
@@ -109,24 +109,24 @@
 .role-time {
    display: flex;
    justify-content: space-between;
-   padding-top: 20px;
+   padding-top: 2rem;
    flex-wrap: wrap;
 }
 
 .role-col {
    display: flex;
    flex-wrap: wrap;
-   padding: 20px;
-   min-width: 340px;
+   padding: 2rem;
+   min-width: 34rem;
    flex: 4;
 }
 
 .time-col {
    display: flex;
    flex-wrap: wrap;
-   padding: 20px;
-   margin-left: 20px;
-   min-width: 340px;
+   padding: 2rem;
+   margin-left: 2rem;
+   min-width: 34rem;
    flex: 1;
 }
 
@@ -136,14 +136,14 @@
    justify-content: space-between;
    align-items: flex-start;
    flex-wrap: wrap;
-   margin-top: 20px;
+   margin-top: 2rem;
 }
 
 .wires {
    flex: 1;
    text-align: center;
-   min-width: 340px;
-   padding: 20px;
+   min-width: 34rem;
+   padding: 2rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -152,11 +152,11 @@
 
 .lomidfi {
    flex: 1.5;
-   min-width: 340px;
+   min-width: 34rem;
 }
 
 #border {
-   border-radius: 14px;
+   border-radius: 1.4rem;
 }
 
 .sp-container-5 {
@@ -165,7 +165,7 @@
    justify-content: space-between;
    align-items: stretch;
    flex-wrap: wrap;
-   margin-top: 20px;
+   margin-top: 2rem;
 }
 
 .sp-container-6 {
@@ -173,27 +173,27 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-top: 20px;
+   margin-top: 2rem;
 }
 
 .btn-margin {
-   margin-top: 15px;
+   margin-top: 1.5rem;
 }
 
 .text {
    flex: 1;
-   padding: 20px;
-   min-width: 340px;
+   padding: 2rem;
+   min-width: 34rem;
 }
 
 .methods {
    display: flex;
    flex-direction: column;
-   padding: 20px;
+   padding: 2rem;
    flex: 1;
    text-align: right;
    flex-wrap: wrap;
-   min-width: 340px;
+   min-width: 34rem;
 }
 
 .method-items {
@@ -201,7 +201,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: flex-end;
-   min-width: 340px;
+   min-width: 34rem;
 }
 
 .user-div {
@@ -210,13 +210,13 @@
    flex-direction: column;
    justify-content: flex-start;
    align-items: stretch;
-   max-width: 340px;
+   max-width: 34rem;
 }
 
 .img-wrap {
-   border-radius: 14px;
-   padding: 24px;
-   min-width: 200px;
+   border-radius: 1.4rem;
+   padding: 2.4rem;
+   min-width: 20rem;
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -234,19 +234,20 @@
 
 .user-photo {
    width: 100%;
-   border-radius: 14px;
+   border-radius: 1rem;
+   padding: 0.4rem;
 }
 
 .margin-left {
-   margin-left: 15px;
+   margin-left: 1.5rem;
 }
 
 .user-quote {
-   padding: 0px 14px;
-   border-radius: 14px;
+   padding: 1.4rem;
+   border-radius: 1rem;
    display: flex;
    align-items: stretch;
-   margin: 14px 0px;
+   margin: 1rem 0px;
 }
 
 .sp-container-7 {
@@ -255,7 +256,7 @@
    justify-content: space-between;
    align-items: stretch;
    flex-wrap: wrap;
-   margin-top: 20px;
+   margin-top: 2rem;
 }
 
 .sp-container-8 {
@@ -265,14 +266,14 @@
    justify-content: flex-start;
    align-items: center;
    flex-wrap: wrap;
-   margin-top: 20px;
+   margin-top: 2rem;
    text-align: center;
 }
 
 .style-head {
-   margin-top: 20px;
+   margin-top: 2rem;
    align-self: flex-start;
-   margin-right: 20px;
+   margin-right: 2rem;
 }
 
 .bold {
@@ -283,15 +284,15 @@
 #left {
    text-align: left;
    flex: 1;
-   flex-basis: 325px;
+   flex-basis: 3.3rem;
    flex-shrink: 2;
 }
 
 .logo-sm {
    width: 100%;
-   flex-basis: 200px;
-   max-width: 225px;
-   margin: 20px;
+   flex-basis: 2rem;
+   max-width: 2.2rem;
+   margin: 2rem;
 }
 
 .sp-container-9 {
@@ -300,17 +301,17 @@
    justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
-   margin-top: 40px;
+   margin-top: 4rem;
 }
 
 .color {
    flex: 1;
-   max-width: 120px;
-   min-width: 100px;
+   max-width: 12rem;
+   min-width: 1rem;
 }
 
 .color-width {
-   width: 80px;
+   width: 8rem;
 }
 
 .sp1 {
@@ -343,43 +344,43 @@
    justify-content: flex-start;
    align-items: center;
    flex-wrap: wrap;
-   margin-top: 40px;
+   margin-top: 4rem;
    width: 100%;
 }
 
 .fonts {
-   margin-left: 30px;
-   margin-top: 20px;
+   margin-left: 3rem;
+   margin-top: 2rem;
 }
 
 .sp-brand-font {
    font-family: 'Vollkorn', serif;
-   font-size: 2em;
-   line-height: 0.4em;
+   font-size: 2rem;
+   line-height: 0.4rem;
    font-style: italic;
 }
 
 .sp-head-font {
    font-family: 'Nunito Sans', sans-serif;
-   font-size: 1.6em;
-   line-height: 1em;
+   font-size: 1.6rem;
+   line-height: 1rem;
 }
 
 .sp-body-font {
    font-family: 'Nunito Sans', sans-serif;
-   font-size: 1.2em;
+   font-size: 1.2rem;
 }
 
 .sp-caption-font {
    font-family: 'Vollkorn', serif;
-   font-size: 1.2em;
+   font-size: 1.2rem;
    font-style: italic;
 }
 
 .sp-link-font {
    font-family: 'Nunito Sans', sans-serif;
    text-decoration: underline;
-   font-size: 1.2em;
+   font-size: 1.2rem;
 }
 
 .sp-container-11 {
@@ -388,7 +389,7 @@
    justify-content: center;
    flex-direction: column;
    flex-wrap: wrap;
-   margin-top: 40px;
+   margin-top: 4rem;
    width: 100%;
 }
 
@@ -399,13 +400,13 @@
 
 .sp-ui-img {
    width: 100%;
-   max-width: 700px;
-   min-width: 340px;
-   margin-right: 30px;
+   max-width: 70rem;
+   min-width: 34rem;
+   margin-right: 3rem;
 }
 
 .sp-ui-div {
-   min-width: 340px;
+   min-width: 34rem;
    align-self: center;
 }
 
@@ -415,7 +416,7 @@
    justify-content: space-between;
    align-items: stretch;
    flex-wrap: wrap;
-   margin-top: 40px;
+   margin-top: 4rem;
    width: 100%;
 }
 
@@ -424,7 +425,7 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-top: 40px;
+   margin-top: 4rem;
    width: 100%;
 }
 
@@ -441,7 +442,7 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-top: 40px;
+   margin-top: 4rem;
    width: 100%;
 }
 
@@ -450,7 +451,7 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-top: 40px;
+   margin-top: 4rem;
    width: 100%;
 }
 
@@ -463,7 +464,7 @@
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 20px 1fr 20px;
+      grid-template-columns: 2rem 1fr 2rem;
       overflow: hidden;
    }
 
@@ -471,7 +472,7 @@
       grid-column: 2/3;
       overflow-x: hidden;
       margin: 0px auto;
-      width: 100%;
+      max-width: 100%;
    }
 
    .sp-container-1 {
@@ -481,29 +482,28 @@
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      width: 100%;
+      max-width: 100%;
    }
 
    .arm {
       margin-left: 0px;
       width: 70%;
-      order: 2;
+      order: 3;
    }
 
    .sp-logo-div {
-      max-width: 200px;
-      margin-top: 20px;
+      max-width: 20rem;
+      margin-top: 2rem;
    }
 
    .about-sp {
-      font-size: 1em;
+      font-size: 1rem;
       text-align: center;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      margin: 20px;
-      width: 70%;
+      max-width: 100%;
    }
 }
 
@@ -512,7 +512,7 @@
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 20px 1fr 20px;
+      grid-template-columns: 2rem 1fr 2rem;
       overflow: hidden;
    }
 
@@ -528,33 +528,32 @@
       flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
-      width: 100%;
+      max-width: 100%;
    }
 
    .arm {
       grid-column: 2/3;
-      min-width: 420px;
+      width: 70%;
       order: 2;
       margin-left: 0px;
    }
 
    .sp-logo-div {
-      margin-top: 10px;
-      max-width: 240px;
+      margin-top: 2rem;
+      max-width: 14rem;
    }
 
    .about-sp {
       grid-row: 2/3;
       text-align: center;
       margin: 0px auto;
-      margin-top: 14px;
-      min-width: 300px;
+      min-width: 34rem;
    }
 
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
-      margin-right: 40px;
+      margin-right: 4rem;
    }
 
    .sp-ui-img {
@@ -569,14 +568,14 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border-radius: 14px;
+      border-radius: 1.4rem;
       padding: 6%;
       margin: 0px auto;
    }
 
    .sp-container-2 {
       grid-column: 2/3;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -590,8 +589,8 @@
       display: flex;
       justify-content: flex-end;
       flex-wrap: wrap;
-      padding: 20px;
-      min-width: 340px;
+      padding: 2rem;
+      min-width: 34rem;
       flex: 4;
    }
 
@@ -599,9 +598,9 @@
       display: flex;
       justify-content: flex-end;
       flex-wrap: wrap;
-      padding: 20px;
-      margin-left: 20px;
-      min-width: 340px;
+      padding: 2rem;
+      margin-left: 2rem;
+      min-width: 34rem;
       flex: 1;
    }
 
@@ -615,7 +614,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -629,7 +628,7 @@
    }
 
    .lomidfi {
-      margin-top: 20px;
+      margin-top: 2rem;
       flex: 1;
    }
 
@@ -639,7 +638,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -681,14 +680,14 @@
 
    .color {
       flex: 1;
-      width: 80px;
+      width: 8rem;
    }
 
    .sp-container-6 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -696,7 +695,7 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -705,7 +704,7 @@
       justify-content: center;
       align-items: center;
       margin-top: 0;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -719,7 +718,7 @@
       justify-content: center;
       align-items: center;
       margin: 0px auto;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -727,7 +726,7 @@
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -754,18 +753,18 @@
       justify-content: center;
       align-items: center;
       margin: 0px auto;
-      width: 100%;
+      max-width: 100%;
    }
 
    .btn-margin {
-      margin: 20px auto;
+      margin: 2rem auto;
    }
 
    .sp-container-13 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -778,14 +777,14 @@
    }
 
    .mockup-full img {
-      border-radius: 14px;
+      border-radius: 1.4rem;
    }
 
    .sp-container-15 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 }
@@ -796,12 +795,12 @@
       display: grid;
       grid-auto-rows: auto;
       grid-template-columns: 1rem 1fr 1rem;
-      overflow-x: hidden;
+
    }
 
    .sp-content {
       grid-column: 2/3;
-      max-width: 340px;
+      max-width: 100%;
       overflow-x: hidden;
       margin: 0px auto;
    }
@@ -812,7 +811,7 @@
       flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
-      width: 100%;
+      max-width: 100%;
       text-align: center;
    }
 
@@ -820,31 +819,29 @@
       grid-column: 2/3;
       order: 2;
       margin-left: 0px;
+      max-width: 34rem;
    }
 
    .sp-logo-div {
-      margin-top: 10px;
-      max-width: 240px;
+      margin-top: 2rem;
+      max-width: 14rem;
    }
 
    .about-sp {
       grid-column: 2/3;
-      margin-left: 0px;
-      margin-top: 40px;
       text-align: center;
-      align-self: center;
+      margin: 0px;
    }
 
    .user-div {
-      max-width: 340px;
-      margin: 10px;
+      max-width: 34rem;
+      margin: 1rem;
    }
 
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
-
-      margin-right: 40px;
+      margin-right: 4rem;
    }
 
    .sp-ui-img {
@@ -853,7 +850,8 @@
 
    .sp-container-2 {
       grid-column: 2/3;
-      max-width: 340px;
+      min-width: 34rem;
+      max-width: 100%;
    }
 
    .prob-obj {
@@ -876,8 +874,6 @@
       margin: 0px auto;
    }
 
-   .sp-img {}
-
    .sp-container-4 {
       grid-column: 2/3;
       justify-content: center;
@@ -894,10 +890,8 @@
       align-items: center;
    }
 
-   .item-header {}
-
    .lomidfi {
-      margin-top: 20px;
+      margin-top: 2rem;
       flex: 1;
    }
 
@@ -907,14 +901,12 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
    }
 
    .text {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
    }
 
    .methods {
@@ -924,7 +916,6 @@
       padding: 1%;
       flex: 1;
       flex-wrap: wrap;
-
    }
 
    .margin-left {
@@ -933,8 +924,8 @@
 
    .color {
       flex: 1;
-      max-width: 80px;
-      min-width: 80px;
+      max-width: 8rem;
+      min-width: 8rem;
    }
 
    .sp-container-6 {
@@ -958,8 +949,7 @@
 
    .text {
       padding: 0;
-      text-align: left;
-
+      text-align: center;
    }
 
    .width {
@@ -994,13 +984,12 @@
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
-
-      margin-right: 40px;
+      margin-right: 4rem;
    }
 
    .sp-ui-img {
       width: 100%;
-      max-width: 340px;
+      max-width: 34rem;
    }
 
    .sp-container-12 {
@@ -1011,7 +1000,7 @@
    }
 
    .btn-margin {
-      margin: 20px auto;
+      margin: 2rem auto;
    }
 
    .sp-container-13 {
@@ -1033,7 +1022,7 @@
    }
 
    .mockup-full img {
-      border-radius: 14px;
+      border-radius: 1.4rem;
    }
 
    .sp-container-15 {
