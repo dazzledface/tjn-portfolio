@@ -82,7 +82,7 @@
 .mockup-full {
    flex: 2;
    padding: 3% 0%;
-   min-width: 40rem;
+   min-width: 34rem;
    margin-left: 1rem;
 }
 
@@ -183,7 +183,7 @@
    justify-content: flex-start;
    align-items: stretch;
    min-width: 34rem;
-   max-width: 50rem;
+   max-width: 100%;
 }
 
 .sc-img-med {
@@ -195,7 +195,7 @@
 
 .user-photo {
    width: 100%;
-   border-radius: 14px;
+   border-radius: 1rem;
 }
 
 .sc-container-6 {
@@ -321,7 +321,6 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-
 }
 
 .sc-container-9>* {
@@ -336,7 +335,7 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-top: 4rem;
+   margin-top: 2rem;
    width: 100%;
 }
 
@@ -353,7 +352,7 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-top: 4rem;
+   margin-top: 2rem;
    width: 100%;
 }
 
@@ -362,7 +361,7 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
-   margin-top: 4rem;
+   margin-top: 2rem;
    width: 100%;
 }
 
@@ -393,6 +392,7 @@
       grid-auto-rows: auto;
       grid-template-columns: 2rem 1fr 2rem;
       overflow: hidden;
+      max-width: 100%;
    }
 
    .sc-about {
@@ -403,6 +403,7 @@
       grid-column: 2/3;
       overflow-y: scroll;
       padding-top: 2rem;
+      max-width: 100%;
    }
 
    .sc-container-1 {
@@ -411,13 +412,14 @@
       flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
-      width: 100%;
+      max-width: 100%;
    }
 
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
       margin-right: 2rem;
+      max-width: 100%;
    }
 
    .sc-ui-img {
@@ -436,11 +438,12 @@
       padding: 6%;
       margin: 0px auto;
       margin-bottom: 14px;
+      max-width: 100%;
    }
 
    .sc-container-2 {
       grid-column: 2/3;
-      width: 100%;
+      max-width: 100%;
    }
 
    .img-limit {
@@ -449,7 +452,7 @@
 
    .sc-container-3 {
       grid-column: 2/3;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -490,7 +493,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
@@ -526,7 +529,7 @@
 
    .color {
       flex: 1;
-      width: 8rem;
+      width: 6rem;
    }
 
    .sc-container-6 {
@@ -535,14 +538,15 @@
       align-items: center;
       width: 100%;
       margin: 0px auto;
+      max-width: 100%;
    }
 
    .sp-container-7 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      width: 100%;
       margin: 0px auto;
+      max-width: 100%;
    }
 
    .sc-container-8 {
@@ -550,13 +554,14 @@
       justify-content: center;
       align-items: center;
       margin-top: 0;
-      width: 100%;
+      max-width: 100%;
       margin: 0px auto;
    }
 
    .text {
       padding: 0;
       text-align: left;
+      max-width: 75ch;
    }
 
    .width {
@@ -566,14 +571,15 @@
 
    .sc-container-9 {
       grid-column: 2/3;
+      max-width: 100%;
    }
 
    .sc-container-10 {
       grid-column: 2/3;
       justify-content: center;
       align-items: center;
-      width: 100%;
       margin: 0px auto;
+      max-width: 100%;
    }
 
    .sc-ui-div {
@@ -615,7 +621,6 @@
       justify-content: center;
       align-items: center;
       margin: 0px auto;
-
    }
 
    .sc-container-3 {
@@ -623,7 +628,6 @@
       justify-content: center;
       align-items: center;
       margin: 0px auto;
-
    }
 
    .role-time {
@@ -637,6 +641,7 @@
 
    .sc-container-4 {
       grid-column: 2/3;
+      max-width: 100%;
    }
 
    .wires {
@@ -650,7 +655,7 @@
    }
 
    .user-div {
-      max-width: 36rem;
+      max-width: 100%;
    }
 
    .sc-container-5 {
@@ -679,7 +684,7 @@
    }
 
    .sc-caption-font {
-      max-width: 36rem;
+      max-width: 34rem;
    }
 
    .sc-img-wide {
@@ -690,6 +695,7 @@
    .sc-container-6 {
       grid-column: 2/3;
       margin: 0px auto;
+      max-width: 100%;
    }
 
    .sc-container-7 {
@@ -697,6 +703,7 @@
       justify-content: center;
       align-items: center;
       margin: 0px auto;
+      max-width: 100%;
    }
 
    .sc-container-8 {
@@ -705,6 +712,7 @@
       align-items: center;
       margin: 0px auto;
       margin-top: 0px;
+      max-width: 100%;
    }
 
    .sc-container-9 {
@@ -716,6 +724,7 @@
       justify-content: center;
       align-items: center;
       margin: 0px auto;
+      max-width: 100%;
    }
 
    .sc-ui-div {
