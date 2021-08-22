@@ -494,6 +494,10 @@ footer {
       margin-top: 1.5rem;
    }
 
+   h4 {
+      font-size: 1.6rem;
+   }
+
    .hero {
       grid-column: 2/3;
       background: #6207FF;
