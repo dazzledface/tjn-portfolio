@@ -82,7 +82,7 @@
 .tools-skills {
    display: flex;
    justify-content: space-between;
-   align-items: stretch;
+   align-items:;
    padding-top: 2rem;
    flex-wrap: wrap;
 }
@@ -104,6 +104,7 @@
    padding: 1rem;
    min-width: 34rem;
    flex: 1;
+   align-items: center;
 }
 
 .skills-col {
@@ -115,6 +116,7 @@
    margin-left: 2rem;
    min-width: 34rem;
    flex: 1.3;
+   align-items: center;
 }
 
 .outline-item {
@@ -183,6 +185,7 @@
 
    .tools-col {
       display: flex;
+      align-items: center;
       flex-wrap: wrap;
       background: #ffffff;
       border-radius: 14px;
@@ -196,8 +199,8 @@
       border-radius: 14px;
       padding: 2rem;
       margin-left: 0px;
-      margin-top: 2rem;
       flex: 1;
+      align-items: center;
    }
 
    footer {
