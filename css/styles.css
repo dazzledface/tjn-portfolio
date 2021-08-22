@@ -104,7 +104,7 @@ a {
    width: 100vw;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 8rem 1fr;
+   grid-template-rows: 6rem 1fr;
 }
 
 .grid-2 {
@@ -117,7 +117,7 @@ a {
 .home-content {
    grid-column: 2/4;
    overflow-y: scroll;
-   padding-top: 2rem;
+   padding-top: 1rem;
 }
 
 .home-content::-webkit-scrollbar {
@@ -137,7 +137,7 @@ header {
    background: white;
    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
    z-index: 10;
-   height: 8rem;
+   height: 6rem;
 }
 
 .navbar {
@@ -145,14 +145,14 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   height: 8rem;
+   height: 6rem;
    margin: 1.6rem auto 1rem auto;
+   padding-bottom: 1rem;
 }
 
 .tjn {
    font-family: 'HK Grotesk Regular';
    max-height: 2.3rem;
-   margin-top: 1.5rem;
 }
 
 .nav-menu {
@@ -160,6 +160,7 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 1.8rem;
 }
 
 .nav-link {
@@ -455,16 +456,48 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
+   .grid-1 {
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 6rem 1fr;
+   }
+
    .grid-2 {
       display: grid;
       grid-template-columns: 1rem 1fr 1rem;
       overflow: hidden;
    }
 
+   header {
+      width: 100%;
+      margin: 0px auto;
+      background: white;
+      box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+      z-index: 10;
+      height: 6rem;
+   }
+
+   .navbar {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 6rem;
+      margin: 1.6rem auto 1rem auto;
+      padding-bottom: 3rem;
+   }
+
    .home-content {
       grid-column: 2/3;
       overflow-y: scroll;
-      padding-top: 2em;
+      padding-top: 1em;
+   }
+
+   .tjn {
+      margin-top: 1.5rem;
    }
 
    .hero {
@@ -523,23 +556,25 @@ footer {
    .nav-menu {
       position: fixed;
       left: -100%;
-      top: 7rem;
+      top: 5rem;
       flex-direction: column;
       background-color: #fff;
       width: 100%;
-      border-radius: 10px;
+      border-radius: 0px 0px 10px 10px;
       text-align: center;
       transition: 0.3s;
       box-shadow:
          0 10px 27px rgba(0, 0, 0, 0.05);
+
    }
 
    .nav-menu.active {
       left: 0;
+      padding: 0;
    }
 
    .nav-item {
-      margin: 2.5rem 0;
+      margin: 2rem 0;
    }
 
    .hamburger {
