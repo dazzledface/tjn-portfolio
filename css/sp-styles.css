@@ -162,6 +162,10 @@
    margin: 2rem 0px;
 }
 
+.center {
+   text-align: center;
+}
+
 .lomidfi {
    flex: 1.5;
    min-width: 34rem;
@@ -317,13 +321,12 @@
 }
 
 .color {
-   flex: 1;
-   max-width: 12rem;
-   min-width: 1rem;
+ width: 10rem;
+ margin-right: 1rem;
 }
 
 .color-width {
-   width: 8rem;
+width: 100%;
 }
 
 .sp1 {
@@ -348,6 +351,10 @@
 
 .sp6 {
    background: #030303;
+}
+
+.hex {
+   font-size: 1.6rem;
 }
 
 .sp-container-10 {
@@ -699,8 +706,11 @@
    }
 
    .color {
-      flex: 1;
       width: 8rem;
+   }
+
+   .color-width {
+      width: 100%;
    }
 
    .sp-container-6 {
