@@ -82,7 +82,7 @@
 .tools-skills {
    display: flex;
    justify-content: space-between;
-   align-items:;
+   align-items: stretch;
    padding-top: 2rem;
    flex-wrap: wrap;
 }
@@ -178,7 +178,7 @@
       grid-column: 2/3;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: stretch;
       padding-top: 2rem;
       flex-wrap: wrap;
    }
@@ -198,7 +198,7 @@
       background: #ffffff;
       border-radius: 14px;
       padding: 2rem;
-      margin-left: 0px;
+      margin-left: 1rem;
       flex: 1;
       align-items: center;
    }
