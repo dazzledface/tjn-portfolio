@@ -4,11 +4,16 @@
    font-family: 'HK Grotesk Regular';
 }
 
-html,
-body {
-   -webkit-overflow-scrolling: touch !important;
+html,body{
+   -webkit-overflow-scrolling : touch !important;
+   overflow: auto !important;
    height: 100% !important;
-   overflow-y: scroll !important;
+}
+
+html {
+   font-size: 62.5%;
+   overflow-y: scroll;
+   height: 100%;
 }
 
 body {
@@ -16,6 +21,8 @@ body {
    font-size: 1rem;
    line-height: 1.6;
    background: #f8f8f8;
+   overflow-y: scroll;
+   height: 100%;
 }
 
 h1 {
