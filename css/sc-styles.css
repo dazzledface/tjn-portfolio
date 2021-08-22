@@ -3,19 +3,18 @@
    width: 100vw;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 8rem 1fr;
+   grid-template-rows: 6rem 1fr;
 }
 
 .grid-2 {
    display: grid;
    grid-auto-rows: auto;
    grid-template-columns: 1fr 6fr 6fr 1fr;
-   overflow: hidden;
+   overflow-y: hidden;
 }
 
 .sc-content {
    grid-column: 2/4;
-   padding-top: 2rem;
    overflow-y: scroll;
 }
 
@@ -389,8 +388,6 @@
 
    .sc-content {
       grid-column: 2/3;
-      overflow-x: hidden;
-      margin: 0px auto;
    }
 }
 
@@ -400,19 +397,16 @@
       display: grid;
       grid-auto-rows: auto;
       grid-template-columns: 2rem 1fr 2rem;
-      overflow: hidden;
       max-width: 100%;
    }
 
    .sc-about {
       font-size: 1.1em;
+
    }
 
    .sc-content {
       grid-column: 2/3;
-      overflow-y: scroll;
-      padding-top: 2rem;
-      max-width: 100%;
    }
 
    .sc-container-1 {
@@ -617,8 +611,6 @@
 
    .sc-content {
       grid-column: 2/3;
-      overflow-x: hidden;
-      margin: 0px auto;
    }
 
    .sc-container-2 {

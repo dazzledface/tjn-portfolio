@@ -3,7 +3,7 @@
    width: 100vw;
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 8rem 1fr;
+   grid-template-rows: 6rem 1fr;
 }
 
 .grid-2 {
@@ -16,7 +16,6 @@
 .about-content {
    grid-column: 2/4;
    overflow-y: scroll;
-   padding-top: 2rem;
 }
 
 .about-content::-webkit-scrollbar {
@@ -139,7 +138,6 @@
    .about-content {
       grid-column: 2/3;
       overflow-y: scroll;
-      padding-top: 2rem;
    }
 
    .story {
