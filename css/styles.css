@@ -60,6 +60,7 @@ p {
    line-height: 2rem;
    margin-block-start: 0em;
    margin-block-end: 0em;
+   max-width: 90ch;
 }
 
 a {
@@ -308,8 +309,8 @@ li:hover .nav-link:hover:after {
 .hero2 {
    flex: 4;
    max-width: 70%;
-   margin-top: 1rem;
-   padding-right: 8rem;
+   margin: 1.6rem;
+   padding-right: 6rem;
 }
 
 /* projects */
@@ -378,7 +379,6 @@ li:hover .nav-link:hover:after {
 
 .orange {
    background: #febf7f;
-
 }
 
 .proj-img {
@@ -489,7 +489,7 @@ footer {
    }
 
    .hero2 {
-      margin-top: 1em;
+      margin-top: 2rem;
       text-align: center;
       margin-left: 0;
       padding-right: 0px;
