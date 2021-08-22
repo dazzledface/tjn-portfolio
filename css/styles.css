@@ -6,6 +6,8 @@
 
 html {
    font-size: 62.5%;
+   overflow-y: scroll;
+   height: 100%;
 }
 
 body {
@@ -13,7 +15,8 @@ body {
    font-size: 1rem;
    line-height: 1.6;
    background: #f8f8f8;
-   overflow: hidden;
+   overflow-y: scroll;
+   height: 100%;
 }
 
 h1 {
@@ -58,8 +61,6 @@ h4 {
 p {
    font-size: 1.6rem;
    line-height: 2rem;
-   margin-block-start: 0em;
-   margin-block-end: 0em;
    max-width: 90ch;
 }
 

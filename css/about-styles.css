@@ -53,10 +53,6 @@
    max-width: 75ch;
 }
 
-.margin-top {
-   margin-top: 2rem;
-}
-
 .info {
    display: flex;
    flex: 1;

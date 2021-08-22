@@ -113,20 +113,18 @@
 
 .sp-container-3 {
    grid-column: 2/4;
-}
-
-.role-time {
    display: flex;
    justify-content: space-between;
    padding-top: 2rem;
    flex-wrap: wrap;
+   align-items: flex-start;
 }
 
 .role-col {
    display: flex;
    flex-wrap: wrap;
    padding: 2rem;
-   min-width: 34rem;
+   min-width: 36rem;
    flex: 4;
 }
 
@@ -135,7 +133,7 @@
    flex-wrap: wrap;
    padding: 2rem;
    margin-left: 2rem;
-   min-width: 34rem;
+   min-width: 36rem;
    flex: 1;
 }
 
@@ -156,10 +154,6 @@
    flex-direction: column;
    justify-content: flex-start;
    align-items: center;
-}
-
-.margin {
-   margin: 2rem 0px;
 }
 
 .center {
