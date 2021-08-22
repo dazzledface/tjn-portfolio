@@ -315,12 +315,12 @@
 }
 
 .color {
- width: 10rem;
- margin-right: 1rem;
+   width: 10rem;
+   margin-right: 1rem;
 }
 
 .color-width {
-width: 100%;
+   width: 100%;
 }
 
 .sp1 {
@@ -531,7 +531,7 @@ width: 100%;
    }
 
    .sp-content {
-      grid-column: 2/3;      
+      grid-column: 2/3;
    }
 
    .sp-container-1 {
@@ -1062,4 +1062,14 @@ width: 100%;
       margin: 0px auto;
       text-align: center;
    }
+}
+
+@media only screen and (max-width: 640px) {
+
+   .grid-2 {
+      display: grid;
+      grid-template-columns: 1rem 1fr 1rem;
+      overflow: hidden;
+   }
+
 }

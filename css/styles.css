@@ -38,7 +38,7 @@ h2 {
 }
 
 .subtitle-lg {
-   font-size: 2.1rem;
+   font-size: 2rem;
    line-height: 3rem;
    font-family: 'HK Grotesk Regular';
    text-align: center;
@@ -451,6 +451,23 @@ footer {
    text-align: center;
 }
 
+@media only screen and (max-width: 900px) {
+
+   .subtitle-lg {
+      font-size: 1.8rem;
+      line-height: 3rem;
+      font-family: 'HK Grotesk Regular';
+      text-align: center;
+   }
+
+   .hero2 {
+      flex: 4;
+      max-width: 70%;
+      margin: 1.6rem;
+      padding-right: 0rem;
+   }
+}
+
 @media only screen and (max-width: 768px) {
 
    .grid-1 {
@@ -463,7 +480,7 @@ footer {
 
    .grid-2 {
       display: grid;
-      grid-template-columns: 1rem 1fr 1rem;
+      grid-template-columns: 2rem 1fr 2rem;
       overflow: hidden;
    }
 
@@ -599,4 +616,14 @@ footer {
    .hamburger.active .bar:after {
       transform: rotate(-90deg);
    }
+}
+
+@media only screen and (max-width: 640px) {
+
+   .grid-2 {
+      display: grid;
+      grid-template-columns: 1rem 1fr 1rem;
+      overflow: hidden;
+   }
+
 }

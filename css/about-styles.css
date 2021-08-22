@@ -38,7 +38,7 @@
 .profile-photo-div {
    background: #FFF05A;
    border-radius: 14px;
-   min-width: 34rem;
+   min-width: 28rem;
    padding: 2.2rem 0.8rem 9rem 0.8rem;
    max-width: 38rem;
    margin-top: 1rem;
@@ -60,7 +60,7 @@
    justify-content: center;
    background: #ffffff;
    border-radius: 14px;
-   min-width: 34rem;
+   min-width: 28rem;
    max-width: 90ch;
    margin-left: 2.2rem;
    padding: 2rem;
@@ -206,4 +206,13 @@
    footer {
       grid-column: 1/5;
    }
+}
+
+@media only screen and (max-width: 640px) {
+   .grid-2 {
+      display: grid;
+      grid-template-columns: 1rem 1fr 1rem;
+      overflow: hidden;
+   }
+
 }
