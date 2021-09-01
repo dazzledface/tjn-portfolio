@@ -310,6 +310,10 @@ li:hover .nav-link:hover:after {
    padding-right: 6rem;
 }
 
+.subtitle-lg {
+   font-size: 2.8rem;
+}
+
 /* projects */
 
 .title-block {
@@ -357,6 +361,16 @@ li:hover .nav-link:hover:after {
    background: #ffffff;
    padding: 2%;
    margin-top: 2rem;
+}
+
+.outline-item {
+   padding: 0.4em 1em;
+   font-size: 1.6rem;
+   border: 1px solid black;
+   text-align: center;
+   margin: 0.5rem;
+   border-radius: 8px;
+   font-weight: 400;
 }
 
 .proj-img-div {
