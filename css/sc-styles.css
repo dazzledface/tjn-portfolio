@@ -43,6 +43,15 @@
    max-width: 90ch;
 }
 
+.text-left {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+   max-width: 90ch;
+}
+
 .sc-cover {
    flex: 2;
    background: #90B301;
@@ -402,7 +411,6 @@
 
    .sc-about {
       font-size: 1.1em;
-
    }
 
    .sc-content {
@@ -506,6 +514,15 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      max-width: 75ch;
+   }
+
+   .text-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
       max-width: 75ch;
    }
 

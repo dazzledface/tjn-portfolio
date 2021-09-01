@@ -50,7 +50,19 @@
 .text {
    margin-right: 3rem;
    text-align: left;
+   min-width: 34rem;
    max-width: 90ch;
+   flex: 1;
+   padding: 0rem 2rem 1rem 2rem;
+}
+
+.text-center {
+   margin-right: 3rem;
+   min-width: 34rem;
+   max-width: 90ch;
+   flex: 1;
+   padding: 0rem 2rem 1rem 2rem;
+   text-align: center;
 }
 
 .about-sp {
@@ -190,12 +202,6 @@
    margin-top: 1.5rem;
 }
 
-.text {
-   flex: 1;
-   padding: 2rem;
-   min-width: 34rem;
-}
-
 .methods {
    display: flex;
    flex-direction: column;
@@ -276,14 +282,20 @@
    justify-content: flex-start;
    align-items: center;
    flex-wrap: wrap;
-   margin-top: 2rem;
+   margin-top: 1rem;
    text-align: center;
 }
 
 .style-head {
-   margin-top: 4rem;
+   margin-top: 2rem;
    align-self: flex-start;
    margin-right: 2rem;
+   margin-bottom: 2rem;
+}
+
+.style-head h3 {
+   margin-block-start: 0em;
+   margin-block-end: 0em;
 }
 
 .bold {
@@ -361,24 +373,26 @@
    width: 100%;
 }
 
-
 .sp-brand-font {
    font-family: 'Vollkorn', serif;
    font-size: 3rem;
    line-height: 5rem;
    font-style: italic;
+   margin-top: 0;
 }
 
 .sp-head-font {
    font-family: 'Nunito Sans', sans-serif;
    font-size: 2.5rem;
    line-height: 4rem;
+   margin-top: 0;
 }
 
 .sp-body-font {
    font-family: 'Nunito Sans', sans-serif;
    font-size: 2rem;
    line-height: 3.5rem;
+   margin-top: 0;
 }
 
 .sp-caption-font {
@@ -386,6 +400,7 @@
    font-size: 2rem;
    line-height: 3.5rem;
    font-style: italic;
+   margin-top: 0;
 }
 
 .sp-link-font {
@@ -393,6 +408,7 @@
    text-decoration: underline;
    font-size: 2rem;
    line-height: 3.5rem;
+   margin-top: 0;
 }
 
 .sp-container-11 {
@@ -499,7 +515,7 @@
 
    .arm {
       margin-left: 0px;
-      width: 70%;
+      width: 80%;
       order: 3;
    }
 
@@ -517,7 +533,7 @@
       justify-content: space-evenly;
       align-items: center;
       max-width: 80%;
-      margin-top: 2rem;
+      margin-top: 0rem;
    }
 }
 
@@ -545,7 +561,7 @@
 
    .arm {
       grid-column: 2/3;
-      width: 70%;
+      width: 80%;
       order: 2;
       margin-left: 0px;
    }
@@ -564,6 +580,7 @@
       grid-row: 2/3;
       text-align: center;
       min-width: 34rem;
+      margin-top: 0rem;
    }
 
    .sp-ui-div {
@@ -592,9 +609,37 @@
    }
 
    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-right: 3rem;
+      text-align: left;
+      min-width: 34rem;
+      max-width: 90ch;
+      flex: 1;
+      padding: 1rem 1rem 1rem 1rem;
       margin-right: 0px;
       margin-bottom: 0rem;
-      margin-top: 2rem;
+      margin-top: 0rem;
+   }
+   
+   .text-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-right: 3rem;
+      min-width: 34rem;
+      max-width: 90ch;
+      flex: 1;
+      padding: 1rem 1rem 1rem 1rem;
+      text-align: center;
+      margin-right: 0px;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
    }
 
    .sp-container-3 {
@@ -660,14 +705,6 @@
       margin: 0px auto;
    }
 
-   .text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-   }
-
    .item-header {
       display: flex;
       justify-content: flex-end;
@@ -719,6 +756,11 @@
       align-items: center;
       max-width: 100%;
       margin: 0px auto;
+   }
+
+   .style-head {
+      text-align: center;
+      margin-top: 1rem;
    }
 
    .sp-container-8 {
@@ -932,12 +974,6 @@
       align-items: center;
    }
 
-   .text {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
-
    .methods {
       display: flex;
       flex-direction: column;
@@ -974,11 +1010,6 @@
       justify-content: center;
       align-items: center;
       margin-top: 0;
-   }
-
-   .text {
-      padding: 0;
-      text-align: center;
    }
 
    .width {
