@@ -32,6 +32,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   flex-wrap: wrap;
 }
 
 .text {
@@ -52,6 +53,48 @@
    max-width: 90ch;
 }
 
+.hero {
+   background-color: white;
+   color: black;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.hero1::before {
+   position: absolute;
+   left: -2rem;
+   height: 100%;
+   width: 0.6rem;
+   background: #92B701;
+   content: "";
+}
+
+.hero1::after {
+   position: absolute;
+   bottom: -0.8rem;
+   height: 0.3rem;
+   width: 100%;
+   background: #92B701;
+   content: "";
+   display: none;
+}
+
+.more-btn {
+   background-image: linear-gradient(to right,
+         #92B701 2%,
+         #92B701 51%,
+         #F2E9DC 100%);
+   padding: 0.8em 0.6em;
+   text-align: center;
+   transition: 0.5s;
+   max-width: 34rem;
+   background-size: 200% auto;
+   border-radius: 8px;
+   box-shadow: 0 0 20px #eee;
+   display: block;
+   margin: 10px auto;
+   min-width: 26rem;
+}
+
 .sc-cover {
    flex: 2;
    background: #90B301;
@@ -70,6 +113,11 @@
 
 .sc-img {
    width: 100%;
+}
+
+.img-width {
+   width: 50%;
+   min-width: 34rem;
 }
 
 .sc-brand-type {
@@ -97,9 +145,9 @@
 }
 
 .mockup-full {
-   flex: 2;
+   flex: 1;
    padding: 3% 0%;
-   min-width: 34rem;
+   min-width: 32rem;
    margin-left: 1rem;
 }
 
@@ -147,19 +195,6 @@
    flex: 1;
 }
 
-.sc-container-4 {
-   grid-column: 2/4;
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
-}
-
-.sc-container-4>* {
-   flex: 1 1 60em;
-   margin: 1rem;
-   min-width: 50%;
-   max-width: 100%;
-}
 
 .users {
    display: flex;
@@ -203,16 +238,10 @@
    max-width: 100%;
 }
 
-.sc-img-med {
-   border-radius: 14px;
-   width: 50%;
-   min-width: 34rem;
-   flex: 1;
-}
-
 .user-photo {
    width: 100%;
    border-radius: 1rem;
+   min-width: 60rem;
 }
 
 .sc-container-6 {
@@ -386,6 +415,13 @@
    grid-column: 1/5;
 }
 
+@media only screen and (min-width: 1000px) {
+   .img-width {
+      width: 50%;
+      margin: 10px auto;
+   }
+}
+
 
 @media only screen and (max-width: 900px) {
    .grid-2 {
@@ -405,7 +441,7 @@
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 2rem 1fr 2rem;
+      grid-template-columns: 1rem 1fr 1rem;
       max-width: 100%;
    }
 
@@ -437,19 +473,54 @@
       width: 100%;
    }
 
-   .sc-hero {
+   .hero {
       grid-column: 2/3;
-      background: #6207FF;
-      color: white;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       border-radius: 14px;
-      padding: 6%;
-      margin: 0px auto;
-      margin-bottom: 14px;
-      max-width: 100%;
+      padding: 2em;
+      margin-top: 1rem;
+   }
+
+   .hero1 {
+      margin-top: 1rem;
+      text-align: center;
+      margin-right: 0;
+   }
+
+   .hero1 h1 {
+      font-size: 3rem;
+      line-height: 4rem;
+   }
+
+   .hero2 {
+      margin-top: 2rem;
+      text-align: center;
+      margin-left: 0;
+      padding-right: 0px;
+   }
+
+   .hero2 h2 {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+   }
+
+   .hero1::before {
+      position: absolute;
+      height: 100%;
+      width: 0.6em;
+      content: "";
+      display: none;
+   }
+
+   .hero1::after {
+      position: absolute;
+      bottom: -0.8em;
+      height: 0.4em;
+      width: 100%;
+      content: "";
+      display: block;
    }
 
    .sc-container-2 {
@@ -459,6 +530,10 @@
 
    .img-limit {
       order: 1;
+   }
+
+   .img-width {
+      width: 100%;
    }
 
    .sc-container-3 {
@@ -478,10 +553,6 @@
    .home-img {
       flex: 1;
       margin: 0px auto;
-   }
-
-   .sc-container-4 {
-      grid-column: 2/3;
    }
 
    .wires {
@@ -527,8 +598,7 @@
    }
 
    .item-header {
-      display: flex;
-      justify-content: flex-end;
+      text-align: center;
    }
 
    .method-items {
@@ -580,11 +650,6 @@
       margin: 0px auto;
    }
 
-   .width {
-      width: 100%;
-      text-align: left;
-   }
-
    .sc-container-9 {
       grid-column: 2/3;
       max-width: 100%;
@@ -626,6 +691,7 @@
       overflow: hidden;
    }
 
+
    .sc-content {
       grid-column: 2/3;
    }
@@ -653,11 +719,6 @@
       margin: 0px auto;
    }
 
-   .sc-container-4 {
-      grid-column: 2/3;
-      max-width: 100%;
-   }
-
    .wires {
       text-align: center;
       padding: 2%;
@@ -666,10 +727,6 @@
       justify-content: center;
       align-items: center;
       margin: 0px auto;
-   }
-
-   .user-div {
-      max-width: 100%;
    }
 
    .sc-container-5 {
@@ -745,10 +802,6 @@
       align-self: flex-start;
       text-align: left;
       margin-right: 0px;
-   }
-
-   .sc-ui-img {
-      width: 100%;
    }
 
 }
