@@ -17,6 +17,24 @@
    color: black;
 }
 
+.more-btn {
+   background-image: linear-gradient(to right,
+         #F6934F 2%,
+         #F6934F 51%,
+         #F2E9DC 100%);
+   padding: 0.8em 0.6em;
+   text-align: center;
+   transition: 0.5s;
+   max-width: 34rem;
+   background-size: 200% auto;
+   border-radius: 8px;
+   box-shadow: 0 0 20px #eee;
+   display: block;
+   margin: 10px auto;
+   min-width: 26rem;
+   color: black;
+}
+
 .hero1::before {
    position: absolute;
    left: -2rem;
@@ -46,17 +64,9 @@
    border-radius: 14px;
 }
 
-.grid-2 {
-   display: grid;
-   grid-auto-rows: auto;
-   grid-template-columns: 1fr 6fr 6fr 1fr;
-   overflow: hidden;
-}
-
 .u-content {
    grid-column: 2/4;
    overflow-y: scroll;
-   height: 100vh;
 }
 
 .u-content::-webkit-scrollbar {
@@ -95,13 +105,6 @@
    display: flex;
 }
 
-.img-div {
-   width: 100%;
-}
-
-.img {
-   width: 100%;
-}
 
 .u-img-wide {
    width: 80%;
@@ -274,10 +277,10 @@
 }
 
 .u-img-div {
-   max-width: 90%;
+   max-width: 80%;
    min-width: 34rem;
    margin: 0px auto;
-   flex: 1;
+
 }
 
 .u-user-photo {
