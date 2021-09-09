@@ -40,16 +40,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   text-align: left;
-   max-width: 90ch;
-}
-
-.text-left {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: left;
+   text-align: center;
    max-width: 90ch;
 }
 
@@ -156,12 +147,12 @@
 }
 
 .problem {
-   text-align: left;
+   text-align: center;
    min-width: 34rem;
 }
 
 .objective {
-   text-align: left;
+   text-align: center;
    min-width: 34rem;
 }
 
@@ -528,6 +519,28 @@
       max-width: 100%;
    }
 
+
+   .prob-obj {
+      display: flex;
+      flex-direction: column;
+      flex: 0;
+      justify-content: flex-start;
+      padding: 0% 0%;
+      min-width: 34rem;
+      text-align: center;
+   }
+
+   .problem {
+      text-align: center;
+      min-width: 34rem;
+   }
+
+   .objective {
+      text-align: center;
+      min-width: 34rem;
+   }
+
+
    .img-limit {
       order: 1;
    }
@@ -569,6 +582,7 @@
       flex: 1;
    }
 
+
    .sc-container-5 {
       grid-column: 2/3;
       display: flex;
@@ -593,8 +607,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-align: left;
-      max-width: 75ch;
+      text-align: center;
+      max-width: 100ch;
    }
 
    .item-header {
