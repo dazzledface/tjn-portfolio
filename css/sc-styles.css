@@ -40,8 +40,9 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   text-align: center;
+   text-align: left;
    max-width: 90ch;
+
 }
 
 .hero {
@@ -133,6 +134,7 @@
    justify-content: flex-start;
    padding: 0% 1%;
    min-width: 34rem;
+   margin-top: 3rem;
 }
 
 .mockup-full {
@@ -144,16 +146,6 @@
 
 .mockup-full img {
    border-radius: 14px;
-}
-
-.problem {
-   text-align: center;
-   min-width: 34rem;
-}
-
-.objective {
-   text-align: center;
-   min-width: 34rem;
 }
 
 #sp-footer {
@@ -185,7 +177,6 @@
    min-width: 34rem;
    flex: 1;
 }
-
 
 .users {
    display: flex;
@@ -523,7 +514,7 @@
    .prob-obj {
       display: flex;
       flex-direction: column;
-      flex: 0;
+      flex: 1;
       justify-content: flex-start;
       padding: 0% 0%;
       min-width: 34rem;
@@ -539,7 +530,6 @@
       text-align: center;
       min-width: 34rem;
    }
-
 
    .img-limit {
       order: 1;
@@ -582,7 +572,6 @@
       flex: 1;
    }
 
-
    .sc-container-5 {
       grid-column: 2/3;
       display: flex;
@@ -613,6 +602,7 @@
 
    .item-header {
       text-align: center;
+      margin: 0 auto;
    }
 
    .method-items {

@@ -43,7 +43,7 @@ h2 {
    font-family: 'HK Grotesk Regular';
    text-align: center;
 
- 
+
 }
 
 h3 {
@@ -79,6 +79,7 @@ a {
    color: white;
    font-size: 1.6rem;
    font-family: 'HK Grotesk Medium';
+   display: block;
 }
 
 .link-blk {
@@ -86,6 +87,7 @@ a {
    color: black;
    font-size: 1.6rem;
    font-family: 'HK Grotesk Medium';
+   display: block;
 }
 
 .link-blk:hover {
