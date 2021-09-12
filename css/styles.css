@@ -421,7 +421,7 @@ li:hover .nav-link:hover:after {
    overflow: hidden;
    z-index: 1;
    min-width: 26rem;
-   margin-bottom: 1rem;
+   margin: 1rem auto;
 }
 
 .more-btn a {
