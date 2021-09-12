@@ -42,7 +42,6 @@
    align-items: center;
    text-align: left;
    max-width: 90ch;
-
 }
 
 .hero {
@@ -68,23 +67,6 @@
    background: #92B701;
    content: "";
    display: none;
-}
-
-.more-btn {
-   background-image: linear-gradient(to right,
-         #92B701 2%,
-         #92B701 51%,
-         #F2E9DC 100%);
-   padding: 0.8em 0.6em;
-   text-align: center;
-   transition: 0.5s;
-   max-width: 34rem;
-   background-size: 200% auto;
-   border-radius: 8px;
-   box-shadow: 0 0 20px #eee;
-   display: block;
-   margin: 10px auto;
-   min-width: 26rem;
 }
 
 .sc-cover {
@@ -131,15 +113,13 @@
    display: flex;
    flex-direction: column;
    flex: 1;
-   justify-content: flex-start;
-   padding: 0% 1%;
+   justify-content: center;
+   gap: 2rem;
    min-width: 34rem;
-   margin-top: 3rem;
 }
 
 .mockup-full {
-   flex: 1;
-   padding: 3% 0%;
+   flex: 1.3;
    min-width: 32rem;
    margin-left: 1rem;
 }
@@ -516,14 +496,16 @@
       flex-direction: column;
       flex: 1;
       justify-content: flex-start;
-      padding: 0% 0%;
+      padding: 3% 0%;
       min-width: 34rem;
       text-align: center;
+
    }
 
    .problem {
       text-align: center;
       min-width: 34rem;
+
    }
 
    .objective {

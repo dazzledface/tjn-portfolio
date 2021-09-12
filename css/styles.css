@@ -410,24 +410,46 @@ li:hover .nav-link:hover:after {
 }
 
 .more-btn {
-   background-image: linear-gradient(to right,
-         #6207FF 2%,
-         #6207FF 51%,
-         #F2E9DC 100%);
+   position: relative;
+   background: #6207FF;
    padding: 0.8em 0.6em;
    text-align: center;
    transition: 0.5s;
    max-width: 34rem;
-   background-size: 200% auto;
    border-radius: 8px;
    box-shadow: 0 0 20px #eee;
-   display: block;
-   margin: 10px auto;
+   overflow: hidden;
+   z-index: 1;
    min-width: 26rem;
+   margin-bottom: 1rem;
 }
 
-.more-btn:hover {
-   background-position: right center;
+.more-btn a {
+   display: block;
+}
+
+.more-btn:hover a {
+
+}
+
+.more-btn:after {
+   content: "";
+   position: absolute;
+   text-align: center;
+   top: 0;
+   left: 0;
+   width: 500%;
+   height: 1000%;
+   background: #1A2238;
+   z-index: -1;
+   transform-origin: 0% 0%;
+   transform: translateX(calc(20% - 50px)) translateY(10%) rotate(-45deg);
+   /transform: translateY(10%) translateX(16%) rotate(-45deg);
+   transition: transform .3s;
+}
+
+.more-btn:hover::after {
+   transform: translateY(12%) rotate(-45deg);
 }
 
 /* footer */
@@ -464,6 +486,7 @@ footer {
 
 .help {
    text-align: center;
+   margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 900px) {
