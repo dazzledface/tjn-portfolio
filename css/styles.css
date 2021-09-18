@@ -676,10 +676,6 @@ footer {
    margin: 0 auto;
 }
 
-.margin-bottom {
-   margin-bottom: 1rem;
-}
-
 .social {
    margin-top: 0rem;
 }
@@ -762,4 +758,43 @@ form [type="reset"]:focus {
 
 form select {
    text-transform: none;
+}
+
+.hero-contact {
+   grid-row: 1/2;
+   grid-column: 2/3;
+   background: #6207FF;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 14px;
+   padding: 6rem;
+   padding-left: 16rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+.hero1-contact {
+   position: relative;
+   margin-right: 2rem;
+}
+
+.hero1-contact::before {
+   position: absolute;
+   left: -2rem;
+   height: 100%;
+   width: 0.6rem;
+   background: #FFF05A;
+   content: "";
+}
+
+.hero1-contact::after {
+   position: absolute;
+   bottom: -0.8rem;
+   height: 0.3rem;
+   width: 100%;
+   background: #FFF05A;
+   content: "";
+   display: none;
 }
