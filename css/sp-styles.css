@@ -235,7 +235,6 @@
 .methods {
    display: flex;
    flex-direction: column;
-   padding: 2rem;
    flex: 1;
    text-align: right;
    flex-wrap: wrap;
@@ -312,15 +311,13 @@
    justify-content: flex-start;
    align-items: center;
    flex-wrap: wrap;
-   margin-top: 1rem;
    text-align: center;
 }
 
 .style-head {
    margin-top: 2rem;
    align-self: flex-start;
-   margin-right: 2rem;
-   margin-bottom: 2rem;
+   margin-bottom: 1.6rem;
 }
 
 .style-head h3 {
@@ -569,6 +566,10 @@
       max-width: 80%;
       margin-top: 0rem;
    }
+
+   .text p {
+      text-align: center;
+   }
 }
 
 @media only screen and (max-width: 768px) {
@@ -620,7 +621,7 @@
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
-      margin-right: 4rem;
+      margin: 0 auto;
    }
 
    .sp-ui-img {
@@ -735,7 +736,7 @@
 
    .role-col {
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
       flex-wrap: wrap;
       padding: 2rem;
       min-width: 34rem;
@@ -744,7 +745,7 @@
 
    .time-col {
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
       flex-wrap: wrap;
       padding: 2rem;
       margin-left: 2rem;
@@ -788,17 +789,19 @@
       align-items: center;
       max-width: 100%;
       margin: 0px auto;
+      margin-bottom: 3rem;
    }
 
    .item-header {
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
+      margin-bottom: 2rem;
    }
 
    .method-items {
       display: flex;
       flex-flow: row wrap;
-      justify-content: flex-end;
+      justify-content: center;
       padding-bottom: 10px;
       width: 100%;
    }
