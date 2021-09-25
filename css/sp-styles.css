@@ -82,7 +82,6 @@
 }
 
 .text-center {
-   margin-right: 14rem;
    min-width: 34rem;
    max-width: 160ch;
    flex: 1;
@@ -99,14 +98,14 @@
    flex-direction: column;
    justify-content: space-evenly;
    align-items: center;
-   margin-top: 4rem;
+   margin-top: 2rem;
 }
 
 .sp-font {
    font-family: Vollkorn, serif;
    font-weight: 400;
    font-size: 6rem;
-   margin: 25rem 0rem 0.5rem 0rem;
+   margin: 0rem 0rem 0.5rem 0rem;
 }
 
 img {
@@ -114,7 +113,7 @@ img {
 }
 
 #brand {
-   width: 100%;
+   width: 60%;
 }
 
 .sp-container-2 {
@@ -128,25 +127,21 @@ img {
 .prob-obj {
    padding: 2rem;
    min-width: 30rem;
-   width: 50%;
-   margin-top: 2rem;
+   width: 60%;
 }
 
 .problem {
    text-align: center;
-   min-width: 34rem;
-
 }
 
 .objective {
    text-align: center;
-   min-width: 34rem;
    margin-top: 5rem;
 }
 
 .home-img {
-   width: 50%;
-   min-width: 34rem;
+   width: 40%;
+   min-width: 30rem;
    max-width: 60rem;
 }
 
@@ -534,7 +529,7 @@ img {
    font-family: Vollkorn, serif;
    font-weight: 400;
    font-size: 6rem;
-   margin: 25rem 0rem 0.5rem 0rem;
+   margin: 14rem 0rem 0.5rem 0rem;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -676,7 +671,7 @@ img {
    .sp-logo-div {
       max-width: 30rem;
       text-align: center;
-      margin: 0rem auto;
+      margin: 0rem auto 1rem auto;
    }
 
    #brand {
@@ -752,9 +747,7 @@ img {
       text-align: center;
       margin-right: 3rem;
       min-width: 30rem;
-      max-width: 150ch;
       flex: 1;
-      padding: 2rem 0rem 0rem 0rem;
       text-align: center;
       margin-right: 0px;
       margin-bottom: 0rem;
@@ -1057,10 +1050,6 @@ img {
       max-width: 34rem;
    }
 
-   .sp-logo-div {
-      margin-top: 1rem;
-
-   }
 
    .sp-font {
       font-family: Vollkorn, serif;
