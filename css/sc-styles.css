@@ -116,7 +116,7 @@
    flex-wrap: wrap;
    margin-top: 2rem;
    justify-content: center;
-   align-items: stretch;
+   align-items: center;
    margin-bottom: 4rem;
 }
 
@@ -126,7 +126,7 @@
    flex: 1;
    justify-content: center;
    gap: 2rem;
-   padding: 4rem;
+   padding: 3rem;
    min-width: 34rem;
 }
 
@@ -431,6 +431,7 @@
 
    .sc-about {
       font-size: 1.1em;
+      padding: 4rem 4rem 0rem 4rem;
    }
 
    .sc-content {
