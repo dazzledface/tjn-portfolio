@@ -60,7 +60,6 @@
    display: none;
 }
 
-
 .arm {
    margin-left: 5rem;
    grid-column: 1/8;
@@ -68,7 +67,7 @@
 }
 
 .sp-logo-div {
-   max-width: 24rem;
+   max-width: 30rem;
    text-align: center;
    margin: 1rem 0rem;
 }
@@ -83,9 +82,9 @@
 }
 
 .text-center {
-   margin-right: 3rem;
+   margin-right: 14rem;
    min-width: 34rem;
-   max-width: 90ch;
+   max-width: 160ch;
    flex: 1;
    padding: 0rem 2rem 1rem 2rem;
    text-align: center;
@@ -107,10 +106,10 @@
    font-family: Vollkorn, serif;
    font-weight: 400;
    font-size: 6rem;
-   margin: 12rem 0rem 0.5rem 0rem;
+   margin: 25rem 0rem 0.5rem 0rem;
 }
 
-.sp-img {
+img {
    width: 100%;
 }
 
@@ -122,29 +121,31 @@
    grid-column: 2/4;
    display: flex;
    justify-content: center;
+   align-items: center;
    flex-wrap: wrap;
 }
 
 .prob-obj {
    padding: 2rem;
-   min-width: 34rem;
-   margin: auto;
+   min-width: 30rem;
+   width: 50%;
+   margin-top: 2rem;
 }
 
 .problem {
    text-align: center;
    min-width: 34rem;
-   max-width: 85ch;
+
 }
 
 .objective {
    text-align: center;
    min-width: 34rem;
-   max-width: 90ch;
    margin-top: 5rem;
 }
 
 .home-img {
+   width: 50%;
    min-width: 34rem;
    max-width: 60rem;
 }
@@ -247,6 +248,7 @@
    flex-wrap: wrap;
    justify-content: flex-end;
    min-width: 34rem;
+   margin-top: 1rem;
 }
 
 .user-div {
@@ -275,6 +277,10 @@
 
 .white {
    color: white;
+}
+
+.logo-div {
+   width: 50%;
 }
 
 .user-photo {
@@ -308,7 +314,7 @@
    grid-column: 2/4;
    display: flex;
    flex-direction: row;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
    flex-wrap: wrap;
    text-align: center;
@@ -397,11 +403,16 @@
 .sp-container-10 {
    grid-column: 2/4;
    display: flex;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
    flex-wrap: wrap;
    margin-top: 4rem;
    width: 100%;
+}
+
+.ui-div {
+   width: 50%;
+   margin-top: 1rem;
 }
 
 .sp-brand-font {
@@ -518,7 +529,25 @@
    grid-column: 1/5;
 }
 
-@media only screen and (max-width: 900px) {
+
+.sp-font {
+   font-family: Vollkorn, serif;
+   font-weight: 400;
+   font-size: 6rem;
+   margin: 25rem 0rem 0.5rem 0rem;
+}
+
+@media only screen and (max-width: 1300px) {
+   #brand {
+      width: 60%;
+   }
+
+   .sp-font {
+      margin-top: 5rem;
+   }
+}
+
+@media only screen and (max-width: 1000px) {
 
    .grid-2 {
       display: grid;
@@ -550,10 +579,18 @@
       order: 3;
    }
 
+   .home-img {
+      width: 80%;
+   }
+
+   .sp-font {
+      margin: 4rem 0rem 0.5rem 0rem;
+   }
+
    .sp-logo-div {
       max-width: 24rem;
       text-align: center;
-      margin: 1rem 0rem;
+      margin: 0rem 0rem;
    }
 
    .about-sp {
@@ -567,6 +604,27 @@
       margin-top: 0rem;
    }
 
+   .prob-obj {
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   .text-center {
+      margin-right: 0rem;
+   }
+
+   .problem,
+   .objective {
+      margin: 0 auto;
+   }
+
+
+
+   #brand {
+      width: 80%;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+   }
 
 }
 
@@ -594,19 +652,37 @@
 
    .arm {
       grid-column: 2/3;
-      width: 80%;
+      width: 90%;
       order: 2;
       margin-left: 0px;
+      z-index: 10;
+      display: none;
    }
 
    .sp-font {
-      margin-top: 2rem;
+      margin-top: 1rem;
+      font-size: 5rem;
+   }
+
+   .home-img {
+      max-width: 60%;
+      min-width: 60%;
+   }
+
+   .ui-div {
+      width: 80%;
    }
 
    .sp-logo-div {
-      max-width: 24rem;
+      max-width: 30rem;
       text-align: center;
-      margin: 1rem 0rem;
+      margin: 0rem auto;
+   }
+
+   #brand {
+      width: 16rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
    }
 
    .about-sp {
@@ -621,6 +697,7 @@
       text-align: left;
       margin: 0 auto;
    }
+
 
    .sp-ui-img {
       width: 100%;
@@ -638,7 +715,12 @@
       justify-content: center;
       align-items: center;
       padding: 2rem;
-      min-width: 34rem;
+      min-width: 30rem;
+   }
+
+   .problem,
+   .objective {
+      min-width: 30rem;
    }
 
    .text {
@@ -649,10 +731,10 @@
       text-align: center;
       margin-right: 3rem;
       text-align: left;
-      min-width: 34rem;
+      min-width: 30rem;
       max-width: 90ch;
       flex: 1;
-      padding: 1rem 1rem 1rem 1rem;
+      padding: 0rem 0rem 0rem 0rem;
       margin-right: 0px;
       margin-bottom: 0rem;
       margin-top: 0rem;
@@ -669,10 +751,10 @@
       align-items: center;
       text-align: center;
       margin-right: 3rem;
-      min-width: 34rem;
-      max-width: 90ch;
+      min-width: 30rem;
+      max-width: 150ch;
       flex: 1;
-      padding: 1rem 1rem 1rem 1rem;
+      padding: 2rem 0rem 0rem 0rem;
       text-align: center;
       margin-right: 0px;
       margin-bottom: 0rem;
@@ -756,7 +838,7 @@
    }
 
    .home-img {
-      flex: 1;
+      width: 40%;
       margin: 0px auto;
    }
 
@@ -797,7 +879,6 @@
    .item-header {
       display: flex;
       justify-content: center;
-      margin-bottom: 2rem;
    }
 
    .method-items {
@@ -978,14 +1059,14 @@
 
    .sp-logo-div {
       margin-top: 1rem;
-      max-width: 14rem;
+
    }
 
    .sp-font {
       font-family: Vollkorn, serif;
       font-weight: 400;
       font-size: 4rem;
-      margin: 2rem 0rem 0rem 0rem;
+      margin: 1rem 0rem 0rem 0rem;
    }
 
    .about-sp {

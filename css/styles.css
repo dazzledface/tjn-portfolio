@@ -99,6 +99,7 @@ a {
 .help {
    font-family: 'HK Grotesk regular';
    color: black;
+   margin-top: 1rem;
 }
 
 /* grid */
@@ -421,7 +422,7 @@ li:hover .nav-link:hover:after {
    overflow: hidden;
    z-index: 1;
    min-width: 26rem;
-   margin: 1rem auto;
+   margin: 0rem auto 2rem auto;
 }
 
 .more-btn a {
