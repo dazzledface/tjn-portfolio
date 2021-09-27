@@ -192,7 +192,7 @@ header {
    right: 0;
    bottom: 0;
    background: black;
-   height: 3px;
+   height: 2.5px;
    border-radius: 10px;
    -webkit-transition-property: left;
    transition-property: left;
@@ -257,7 +257,7 @@ li:hover .nav-link:hover:after {
    right: 0;
    bottom: 0;
    background: #6207FF;
-   height: 3px;
+   height: 2.5px;
    border-radius: 10px;
 }
 
