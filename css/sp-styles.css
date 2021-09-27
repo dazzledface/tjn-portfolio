@@ -9,7 +9,7 @@
 .grid-2 {
    display: grid;
    grid-auto-rows: auto;
-   grid-template-columns: 1fr 7fr 6fr 1fr;
+   grid-template-columns: 2fr 7fr 6fr 2fr;
    overflow: hidden;
 }
 
