@@ -259,15 +259,15 @@
 }
 
 .u-img-div {
-   max-width: 80%;
-   min-width: 34rem;
+   max-width: 70%;
+   min-width: 30rem;
    margin: 0px auto;
 
 }
 
 .u-user-photo {
    width: 100%;
-   max-width: 34rem;
+   max-width: 30rem;
 }
 
 .user-info {
