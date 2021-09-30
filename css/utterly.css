@@ -140,7 +140,6 @@
 }
 
 .img-limit {
-   min-width: 300px;
    flex: 1;
 }
 
@@ -505,10 +504,6 @@
       width: 100%;
       content: "";
       display: block;
-   }
-
-   .img-limit {
-      order: 1;
    }
 
    .u-container-3 {
