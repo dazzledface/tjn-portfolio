@@ -316,8 +316,9 @@ li:hover .nav-link:hover:after {
    background: #6207FF;
    color: white;
    display: flex;
-   justify-content: center;
-   align-items: center;
+   justify-content:flex-start;
+   align-items: flex-start;
+   flex-direction: column;
    border-radius: 14px;
    padding: 6rem;
    padding-left: 16rem;
@@ -333,7 +334,7 @@ li:hover .nav-link:hover:after {
 .hero1::before {
    position: absolute;
    left: -2rem;
-   height: 100%;
+   height: 125%;
    width: 0.6rem;
    background: #FFF05A;
    content: "";
@@ -350,10 +351,9 @@ li:hover .nav-link:hover:after {
 }
 
 .hero2 {
-   flex: 4;
-   max-width: 70%;
-   margin: 1.6rem;
-   padding-right: 6rem;
+
+text-align: left;
+
 
 }
 
@@ -538,16 +538,17 @@ footer {
 
    .subtitle-lg {
       font-size: 1.8rem;
-      line-height: 3rem;
+      line-height: 2.4rem;
       font-family: 'HK Grotesk Regular';
-      text-align: center;
+      text-align: left;
+   }
+
+   .hero1::before {
+      height: 150%;
    }
 
    .hero2 {
-      flex: 4;
-      max-width: 70%;
-      margin: 1.6rem;
-      padding-right: 0rem;
+ max-width: 70%;
    }
 }
 
@@ -630,7 +631,8 @@ footer {
 
    .hero2 h2 {
       font-size: 1.6rem;
-      line-height: 2.2rem;
+      line-height: 1.8rem;
+      text-align: center;
    }
 
    .hero1::before {
