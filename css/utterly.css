@@ -15,8 +15,12 @@
 .hero {
    background: #F6934F;
    color: black;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.hero::before {
+   background: white;
+}
 
 .hero1::before {
    position: absolute;
