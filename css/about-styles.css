@@ -35,6 +35,10 @@
    flex-wrap: wrap;
 }
 
+.subtitle-lg {
+   text-align: left;
+}
+
 .profile-photo-div {
    background: #FFF05A;
    border-radius: 14px;
