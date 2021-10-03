@@ -470,12 +470,12 @@ img {
 .sp-ui-img {
    width: 100%;
    max-width: 70rem;
-   min-width: 34rem;
+   min-width: 28rem;
    margin-right: 3rem;
 }
 
 .sp-ui-div {
-   min-width: 34rem;
+   min-width: 30rem;
    align-self: center;
 }
 
@@ -696,7 +696,7 @@ img {
    }
 
    .sp-ui-div {
-      align-self: flex-start;
+      align-self: center;
       text-align: left;
       margin: 0 auto;
    }
@@ -975,9 +975,9 @@ img {
    }
 
    .sp-ui-div {
-      align-self: flex-start;
-      text-align: left;
-      margin-right: 0px;
+
+      text-align: center;
+
    }
 
    .sp-ui-img {
@@ -1031,7 +1031,6 @@ img {
       display: grid;
       grid-auto-rows: auto;
       grid-template-columns: 1rem 1fr 1rem;
-
    }
 
    .sp-content {
@@ -1080,9 +1079,9 @@ img {
    .sp-ui-div {
       align-self: flex-start;
       text-align: left;
-      margin-right: 4rem;
+      margin: 0 auto;
    }
-
+   
    .sp-ui-img {
       width: 100%;
    }
@@ -1209,15 +1208,9 @@ img {
       align-items: center;
    }
 
-   .sp-ui-div {
-      align-self: flex-start;
-      text-align: left;
-      margin-right: 4rem;
-   }
-
    .sp-ui-img {
       width: 100%;
-      max-width: 34rem;
+      max-width: 30rem;
    }
 
    .sp-container-12 {
