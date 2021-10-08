@@ -9,7 +9,7 @@
 .grid-2 {
    display: grid;
    grid-auto-rows: auto;
-   grid-template-columns: 2fr 6fr 6fr 2fr;
+   grid-template-columns: 3fr 6fr 6fr 3fr;
    overflow: hidden;
 }
 
@@ -137,7 +137,7 @@
    .grid-2 {
       display: grid;
       grid-auto-rows: auto;
-      grid-template-columns: 1rem 1fr 1rem;
+      grid-template-columns: 2rem 1fr 2rem;
       overflow: hidden;
    }
 
